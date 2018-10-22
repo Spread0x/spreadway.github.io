@@ -63,6 +63,7 @@ const Layout = ({ children }) => (
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8" />
 
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
