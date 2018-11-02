@@ -8103,14 +8103,14 @@ button.close {
 }
 
 body {
-  position: relative;
-  background: #080059;
-  font-family: roboto mono, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #6881a9;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+    position: relative;
+    background: #88c3ff12;
+    font-family: roboto mono, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6881a9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
