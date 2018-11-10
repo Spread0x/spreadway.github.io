@@ -8103,14 +8103,14 @@ button.close {
 }
 
 body {
-  position: relative;
-  background: #080059;
-  font-family: roboto mono, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #6881a9;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+    position: relative;
+    background: #88c3ff12;
+    font-family: roboto mono, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6881a9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -8158,7 +8158,7 @@ p {
 }
 
 .txt-green {
-  color: #58e4d2
+  color: #77baff
 }
 
 .txt-light-blue {
@@ -8317,7 +8317,7 @@ section .content-box .section-heading {
 .navbar-default .navbar-header .navbar-brand {
   width: 146px;
   height: 35px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 10px;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -8373,12 +8373,12 @@ section .content-box .section-heading {
 
 .navbar-default .navbar-nav li a:hover {
   background-color: transparent;
-  color: #58e4d2
+  color: #77baff
 }
 
 .navbar-default .navbar-nav .active a {
   background-color: transparent;
-  color: #58e4d2;
+  color: #77baff;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -8387,7 +8387,7 @@ section .content-box .section-heading {
 
 .navbar-default .navbar-nav .active a:hover {
   background-color: transparent;
-  color: #58e4d2
+  color: #77baff
 }
 
 .navbar-default .navbar-form {
@@ -8560,7 +8560,7 @@ footer .top-footer .list-group-item a {
 
 footer .top-footer .list-group-item a:hover {
   background-color: transparent;
-  color: #58e4d2;
+  color: #77baff;
   text-decoration: none
 }
 
@@ -8606,7 +8606,7 @@ footer .bottom-footer p .text-right a {
 }
 
 section#site-main {
-  background-image: url(https://www.coinapi.io/images/main_bg.jpg);
+  background: radial-gradient(circle at 104%, #a157ad, #62316b 30%, #702d7b 65%, #5c2a65 75%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8691,11 +8691,11 @@ section#site-main .container .btn-human:hover {
   }
 }
 
-section#site-main .container .coinapi-images {
+section#site-main .container .spread-images {
   position: relative
 }
 
-section#site-main .container .coinapi-images .coinapi-main {
+section#site-main .container .spread-images .spread-main {
   position: absolute;
   top: -102px;
   z-index: 1;
@@ -8703,19 +8703,19 @@ section#site-main .container .coinapi-images .coinapi-main {
 }
 
 @media(max-width:1300px) {
-  section#site-main .container .coinapi-images .coinapi-main {
+  section#site-main .container .spread-images .spread-main {
     width: 100%
   }
 }
 
 @media(max-width:1200px) and (min-width:768px) {
-  section#site-main .container .coinapi-images .coinapi-main {
+  section#site-main .container .spread-images .spread-main {
     top: 0
   }
 }
 
 @media(max-width:990px) {
-  section#site-main .container .coinapi-images .coinapi-main {
+  section#site-main .container .spread-images .spread-main {
     top: -830px;
     left: 0;
     right: 0
@@ -8723,12 +8723,12 @@ section#site-main .container .coinapi-images .coinapi-main {
 }
 
 @media(max-width:420px) {
-  section#site-main .container .coinapi-images .coinapi-main {
+  section#site-main .container .spread-images .spread-main {
     top: -670px
   }
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide {
   position: absolute;
   z-index: 2;
   top: -102px;
@@ -8739,19 +8739,19 @@ section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
 }
 
 @media(max-width:1300px) {
-  section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
+  section#site-main .container .spread-images .coinapi-exchanges .show-hide {
     width: 100%
   }
 }
 
 @media(max-width:1200px) and (min-width:768px) {
-  section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
+  section#site-main .container .spread-images .coinapi-exchanges .show-hide {
     top: 0
   }
 }
 
 @media(max-width:990px) {
-  section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
+  section#site-main .container .spread-images .coinapi-exchanges .show-hide {
     top: -830px;
     left: 0;
     right: 0
@@ -8759,37 +8759,37 @@ section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
 }
 
 @media(max-width:420px) {
-  section#site-main .container .coinapi-images .coinapi-exchanges .show-hide {
+  section#site-main .container .spread-images .coinapi-exchanges .show-hide {
     top: -670px
   }
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide.gdax {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide.gdax {
   animation-delay: .1s;
   -webkit-animation-delay: .1s
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide.poloniex {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide.poloniex {
   animation-delay: 2s;
   -webkit-animation-delay: 2s
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide.huobi {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide.huobi {
   animation-delay: 4s;
   -webkit-animation-delay: 4s
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide.okcoin {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide.okcoin {
   animation-delay: 6s;
   -webkit-animation-delay: 6s
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide.kraken {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide.kraken {
   animation-delay: 8s;
   -webkit-animation-delay: 8s
 }
 
-section#site-main .container .coinapi-images .coinapi-exchanges .show-hide.bitstamp {
+section#site-main .container .spread-images .coinapi-exchanges .show-hide.bitstamp {
   animation-delay: 10s;
   -webkit-animation-delay: 10s
 }
@@ -9882,7 +9882,7 @@ section#pricing-main .container .slider:before {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #58e4d2;
+  background-color: #77baff;
   -webkit-transition: .4s;
   transition: .4s
 }
@@ -11004,4 +11004,12 @@ section#cryptotick .container .interested-in .btn-cryptotick:hover {
     opacity: 1;
     -webkit-transform: translateX(0)
   }
+}
+
+
+nav.navbar.navbar-default.navbar-fixed-top.affix-top a.navbar-brand {
+    color: white;
+}
+nav.navbar.navbar-default.navbar-fixed-top.affix a.navbar-brand {
+    color: #000;
 }
