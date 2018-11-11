@@ -8362,7 +8362,7 @@ section .content-box .section-heading {
 
 .navbar-default .navbar-nav li a {
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 40px;
   -webkit-transition: all .2s ease-in-out;
@@ -9706,7 +9706,8 @@ section#cases {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
-  padding-bottom: 140px
+  padding-bottom: 140px;
+  box-shadow: 0px 0px 11px #0000001c;
 }
 
 @media(max-width:1200px) and (min-width:768px) {
