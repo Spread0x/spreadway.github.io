@@ -2,36 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import jquery from 'jquery';
+window.$ = window.jQuery=jquery;
 
 const IndexPage = () => (
   <Layout>
    <div>
-      <nav className="navbar navbar-default navbar-fixed-top affix-top" data-spy="affix" data-offset-top={800} role="navigation">
-        <div className="container">
-          <div className="navbar-header">
-            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-            </button>
-            <a className="navbar-brand" href="/">Spread</a>
-          </div>
-          <div className="collapse navbar-collapse" id="navbar-collapse" aria-expanded="false">
-            <form className="navbar-form navbar-right subscribe-form hidden-sm">
-              <a href="/pricing?apikey" className="btn btn-subscribe">Get a free API key</a>
-            </form>
-            <ul className="nav navbar-nav navbar-right">
-              <li className="active"><a href="/">Product</a></li>
-              <li><a href="https://docs.spread0x.com/" target="_blank">API Docs</a></li>
-              <li><a href="/pricing">Pricing</a></li>
-              <li><a target="_blank" href="/faq">FAQ</a></li>
-              <li><a target="_blank" href="/support">Support</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
       <section id="site-main">
         <div className="container">
           <div className="row">
@@ -45,13 +21,13 @@ const IndexPage = () => (
                 Spread is a platform which provides fast, reliable<br />
                 and unified data APIs to cryptocurrency markets.
               </h4>
-              <a className="btn btn-api fadeInUp animate" href="/pricing?apikey">Get early access</a>
+              <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
 {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
 */}
             </div>
             <div className="col-md-6 spread-images">
-              <img src="http://localhost:8000/images/main.svg" className="spread-main" alt="exchanges" />
+              <img src="/images/main.svg" className="spread-main" alt="exchanges" />
             </div>
           </div>
         </div>
@@ -415,9 +391,9 @@ const IndexPage = () => (
         <div className="container">
           <div className="row">
             <div className="content-box">
-              <h3 className="section-heading">use &lt;cases/&gt;</h3>
+              <h3 className="section-heading">How to use</h3>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12">
               <div className="cases-box fadeInLeft animate">
                 <img className="space-bottom-3x" src="/images/x2/systematic-trading.png" alt="systematic trading" />
                 <h6>systematic trading</h6>
@@ -429,7 +405,7 @@ const IndexPage = () => (
                 <h6 className="cases-text">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12">
               <div className="cases-box fadeInDown animate">
                 <img className="space-bottom-3x" src="/images/x2/third-party.png" alt="third party integrations" />
                 <h6>third party integrations</h6>
@@ -441,7 +417,7 @@ const IndexPage = () => (
                 <h6 className="cases-text">Our terabytes of raw and preprocessed market data are available for research and analysis from environments like Python, R or Matlab. We can deliver data to you on demand, whenever you need it, with an easy-to-use API.</h6>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12">
               <div className="cases-box fadeInRight animate">
                 <img className="space-bottom-3x" src="/images/x2/exchange-rates.png" alt="exchange rates" />
                 <h6>exchange rates</h6>
@@ -456,80 +432,23 @@ const IndexPage = () => (
           </div>
           <div className="row">
             <div className="content-box wanna-try">
-              <h3 className="section-heading fadeInDown animate">{'{'}wanna try?{'}'}</h3>
-              <form action="https://send.pageclip.co/0pHRl3IHAP0G7NyWOex5HGulUEV34j1a/contact-form" className="pageclip-form" method="post">
-                {/* Replace these inputs with your own. Make sure they have a "name" attribute! */}
-                <input type="text" name="name" placeholder="Jonhn Doe" />
-                <input type="email" name="email" placeholder="john@acme.com" />
-                {/* This button will have a loading spinner. Keep the inner span for best results. */}
-                <button type="submit" className="pageclip-form__submit">
-                  <span>Send</span>
-                </button>
-              </form>              
+              <h3 className="section-heading fadeInDown animate">Wanna try?</h3>             
               <p>
                 This is perhaps the perfect moment to stop reading<br />
                 and do some clicking instead.
               </p>
-              <a className="btn btn-api fadeInUp animate" href="/pricing?apikey">Get early access</a></div>
-          </div>
+              <form action="https://send.pageclip.co/0pHRl3IHAP0G7NyWOex5HGulUEV34j1a/contact-form" className="pageclip-form" method="post">
+                {/* Replace these inputs with your own. Make sure they have a "name" attribute! */}
+                <div className="form-fields">
+                  <input type="text" className="form-control" name="name" placeholder="Jonhn Doe" />
+                  <input type="email" className="form-control" name="email" placeholder="john@acme.com" />
+                </div>
+                {/* This button will have a loading spinner. Keep the inner span for best results. */}
+                <button type="submit" className="btn btn-api fadeInUp animate">Get early access</button>
+              </form>               
+          </div></div>
         </div>
-      </section>
-
-
-      <footer className="footer">
-        <div className="top-footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-2">
-                <h6 className="footer-title space-bottom-2x hidden-xs">Product</h6>
-                <h6 className="footer-title visible-xs collapsed" data-toggle="collapse" data-target="#product" aria-expanded="false">Product</h6>
-                <ul className="list-group collapse" id="product" aria-expanded="false">
-              <li className="list-group-item"><a href="/#data">Features</a></li>
-                  <li className="list-group-item"><a href="/#cases">Use cases</a></li>
-                  <li className="list-group-item"><a href="/#pricing">Pricing</a></li>
-                  <li className="list-group-item"><a href="https://medium.com/spread-dao">Blog</a></li>
-                  <li className="list-group-item"><a href="https://www.cryptotick.com/" target="_blank">Flat files</a></li>
-                </ul>
-              </div>
-              {/*<div className="col-sm-2">
-                <h6 className="footer-title space-bottom-2x hidden-xs">Help</h6>
-                <h6 className="footer-title visible-xs collapsed" data-toggle="collapse" data-target="#help" aria-expanded="false">Help</h6>
-                <ul className="list-group collapse" id="help" aria-expanded="false">
-                  <li className="list-group-item"><a target="_blank" href="/faq">FAQ</a></li>
-                  <li className="list-group-item"><a target="_blank" href="/support">Support center</a></li>
-                </ul>
-              </div>
-              <div className="col-sm-2">
-                <h6 className="footer-title space-bottom-2x hidden-xs">Developers</h6>
-                <h6 className="footer-title visible-xs collapsed" data-toggle="collapse" data-target="#developers" aria-expanded="false">Developers</h6>
-                <ul className="list-group collapse" id="developers" aria-expanded="false">
-                  <li className="list-group-item"><a href="https://github.com/coinapi/coinapi-sdk" target="_blank">Helper Libaries</a></li>
-                  <li className="list-group-item"><a href="https://docs.spread0x.com/" target="_blank">API Documentation</a></li>
-                  <li className="list-group-item"><a href="http://status.spread0x.com/" target="_blank">Status Page</a></li>
-                </ul>
-              </div>
-              <div className="col-sm-2 border-none">
-                <h6 className="footer-title space-bottom-2x hidden-xs">Legal</h6>
-                <h6 className="footer-title visible-xs collapsed" data-toggle="collapse" data-target="#legal" aria-expanded="false">Legal</h6>
-                <ul className="list-group collapse" id="legal" aria-expanded="false">
-                  <li className="list-group-item"><a href="/#terms">Terms of service</a></li>
-                  <li className="list-group-item"><a href="/#policy">Privacy Policy</a></li>
-                </ul>
-              </div>*/}
-            </div>
-          </div>
-        </div>
-        <div className="bottom-footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <p className="separator-top-1x">
-                  <span className="text-left">Copyright 2018 Empire InCloud LTD. All rights reserved.</span>
-                </p></div>
-            </div>
-          </div>
-        </div>
-      </footer>      
+      </section>   
     </div>
   </Layout>
 )
