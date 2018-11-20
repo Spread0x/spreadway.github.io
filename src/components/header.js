@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
           </div>
           <div className="collapse navbar-collapse" id="navbar-collapse" aria-expanded="false">
             <form className="navbar-form navbar-right subscribe-form hidden-sm">
-              <a href="/pricing?apikey" className="btn btn-subscribe">Get a free API key</a>
+              {/*<a href="/pricing?apikey" className="btn btn-subscribe">Get a free API key</a>*/}
             </form>
             <ul className="nav navbar-nav navbar-right">
               <li className="active"><a href="/">Product</a></li>

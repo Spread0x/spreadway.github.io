@@ -9771,18 +9771,6 @@ section#cases .container .cases-box h6 {
   transition: opacity .4s ease-in-out
 }
 
-section#cases .container .cases-box:hover h6 {
-  opacity: 0
-}
-
-section#cases .container .cases-box:hover img {
-  opacity: 0
-}
-
-section#cases .container .cases-box:hover .cases-text {
-  opacity: 1
-}
-
 section#cases .container .wanna-try {
   padding-top: 60px
 }
@@ -11015,8 +11003,18 @@ section#cryptotick .container .interested-in .btn-cryptotick:hover {
 
 .pageclip-form input.form-control {
     margin-bottom: 7px;
-    border: solid 1px #685bff;
+    border: solid 1px #97b2e8;
     box-shadow: none;
+}
+section#cases .container .cases-box {
+  display: flex;
+}
+section#cases .container .cases-box img {
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+    max-height: 70px;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top.affix-top a.navbar-brand {

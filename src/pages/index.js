@@ -397,36 +397,36 @@ const IndexPage = () => (
               <div className="cases-box fadeInLeft animate">
                 <img className="space-bottom-3x" src="/images/x2/systematic-trading.png" alt="systematic trading" />
                 <h6>systematic trading</h6>
-                <h6 className="cases-text">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
+                <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
               </div>
               <div className="cases-box fadeInLeft animate">
                 <img src="/images/x2/portfolio.png" alt="portfolio valuation" />
                 <h6>portfolio valuation</h6>
-                <h6 className="cases-text">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
+                <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
               </div>
             </div>
             <div className="col-md-12">
               <div className="cases-box fadeInDown animate">
                 <img className="space-bottom-3x" src="/images/x2/third-party.png" alt="third party integrations" />
                 <h6>third party integrations</h6>
-                <h6 className="cases-text">Integrate our data into your application with simple-to-use SDK, available in most popular programming languages.</h6>
+                <h6 className="cases-text2">Integrate our data into your application with simple-to-use SDK, available in most popular programming languages.</h6>
               </div>
               <div className="cases-box fadeInUp animate">
                 <img className="space-bottom-3x" src="/images/x2/big-data.png" alt="big data science" />
                 <h6>big data science</h6>
-                <h6 className="cases-text">Our terabytes of raw and preprocessed market data are available for research and analysis from environments like Python, R or Matlab. We can deliver data to you on demand, whenever you need it, with an easy-to-use API.</h6>
+                <h6 className="cases-text2">Our terabytes of raw and preprocessed market data are available for research and analysis from environments like Python, R or Matlab. We can deliver data to you on demand, whenever you need it, with an easy-to-use API.</h6>
               </div>
             </div>
             <div className="col-md-12">
               <div className="cases-box fadeInRight animate">
                 <img className="space-bottom-3x" src="/images/x2/exchange-rates.png" alt="exchange rates" />
                 <h6>exchange rates</h6>
-                <h6 className="cases-text">Get the most accurate exchange rates, calculated by averaging the volume weighted price traded over multiple markets, by incorporating both active and passive market data, and by using the foreign exchange reference rates of various central banks.</h6>
+                <h6 className="cases-text2">Get the most accurate exchange rates, calculated by averaging the volume weighted price traded over multiple markets, by incorporating both active and passive market data, and by using the foreign exchange reference rates of various central banks.</h6>
               </div>
               <div className="cases-box fadeInRight animate">
                 <img className="space-bottom-3x" src="/images/x2/marekt-making.png" alt="market making" />
                 <h6>market making</h6>
-                <h6 className="cases-text">A complete real-time knowledge of the status of all markets makes it easier to run market-making strategies.</h6>
+                <h6 className="cases-text2">A complete real-time knowledge of the status of all markets makes it easier to run market-making strategies.</h6>
               </div>
             </div>
           </div>
