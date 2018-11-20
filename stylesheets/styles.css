@@ -8297,7 +8297,6 @@ section .content-box .section-heading {
 
 @media(max-width:767px) {
   .navbar-default .navbar-header {
-    border-bottom: 1px solid #7a5fff
   }
 }
 
@@ -8341,7 +8340,7 @@ section .content-box .section-heading {
 
 @media(max-width:767px) {
   .navbar-default .navbar-collapse {
-    background-color: #6b55ff;
+    background-color: #a960b6;
     -webkit-box-shadow: 0 13px 19px -9px rgba(0, 0, 0, .75);
     -moz-box-shadow: 0 13px 19px -9px rgba(0, 0, 0, .75);
     box-shadow: 0 13px 19px -9px rgba(0, 0, 0, .75);
@@ -8353,7 +8352,7 @@ section .content-box .section-heading {
     padding-right: 15px
   }
   .navbar-default .navbar-collapse li a {
-    border-bottom: 1px solid #7a5fff
+    border-bottom: 1px solid #ad62ba
   }
   .navbar-default .navbar-collapse .navbar-nav {
     margin: 0
@@ -8716,7 +8715,7 @@ section#site-main .container .spread-images .spread-main {
 
 @media(max-width:990px) {
   section#site-main .container .spread-images .spread-main {
-    top: -830px;
+    top: -715px;
     left: 0;
     right: 0
   }
@@ -9770,18 +9769,6 @@ section#cases .container .cases-box h6 {
   -moz-transition: opacity .4s ease-in-out;
   -o-transition: opacity .4s ease-in-out;
   transition: opacity .4s ease-in-out
-}
-
-section#cases .container .cases-box:hover h6 {
-  opacity: 0
-}
-
-section#cases .container .cases-box:hover img {
-  opacity: 0
-}
-
-section#cases .container .cases-box:hover .cases-text {
-  opacity: 1
 }
 
 section#cases .container .wanna-try {
@@ -11007,6 +10994,29 @@ section#cryptotick .container .interested-in .btn-cryptotick:hover {
   }
 }
 
+.pageclip-form {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.pageclip-form input.form-control {
+    margin-bottom: 7px;
+    border: solid 1px #97b2e8;
+    box-shadow: none;
+}
+section#cases .container .cases-box {
+  display: flex;
+}
+section#cases .container .cases-box img {
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+    max-height: 70px;
+    margin-right: 50px;
+}
 
 nav.navbar.navbar-default.navbar-fixed-top.affix-top a.navbar-brand {
     color: white;

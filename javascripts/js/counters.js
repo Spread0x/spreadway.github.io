@@ -4,7 +4,7 @@ $(document).ready(function () {
     var a = 0;
     $(window).scroll(function() {
 
-        var oTop = $('#integration').offset().top - window.innerHeight;
+        var oTop = $('#site-main').offset().top - window.innerHeight;
         if (a == 0 && $(window).scrollTop() > oTop) {
             $('.counter-value').each(function() {
                 var $this = $(this),
