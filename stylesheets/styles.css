@@ -8508,7 +8508,8 @@ footer {
 @media(max-width:768px) {
   footer {
     padding-top: 40px;
-    text-align: center
+    text-align: center;
+    display: none;
   }
 }
 
@@ -11018,9 +11019,44 @@ section#cases .container .cases-box img {
     margin-right: 50px;
 }
 
+.hidden-success {
+  display: none;
+}
 nav.navbar.navbar-default.navbar-fixed-top.affix-top a.navbar-brand {
     color: white;
 }
 nav.navbar.navbar-default.navbar-fixed-top.affix a.navbar-brand {
     color: #000;
+}
+
+
+footer.footer .top-footer {
+    margin-top: -40px;
+}
+
+footer.footer .top-footer .col-sm-2 {
+    display: none;
+}
+
+footer .separator-top-1x {
+    border: none;
+    text-align: center;
+}
+
+footer .separator-top-1x span.text-left {
+    float: none;
+}
+
+footer .bottom-footer {
+    margin-top: -23px;
+}
+
+
+.affix .navbar-collapse li:last-child a {
+    border: none;
+}
+
+
+.case-hide, #pricing-hide {
+  display: none;
 }
