@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
             </form>
             <ul className="nav navbar-nav navbar-right">
               <li className="active"><a href="/">Product</a></li>
-              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#pricing" id="pricing-hide">Pricing</a></li>
               {/*<li><a href="https://docs.spread0x.com/" target="_blank">Docs</a></li>
                 <li><a target="_blank" href="/faq">FAQ</a></li>
                 <li><a target="_blank" href="/support">Support</a></li>

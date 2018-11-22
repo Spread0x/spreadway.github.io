@@ -18,14 +18,12 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                Find faster and qualified freelancers for your <br />
-                  task <br />
+                atch your experience with a (job,task,startup,project) that you can join right now  <br />
+                (in the chicken-egg problem this will be considered as trolling) <br />
               </h2>
               <h4 className="fadeInLeft animate">
-                (job, startup, project)
-{/*                Spread is a platform which provides fast, reliable<br />
+                Spread is a platform which provides fast, reliable<br />
                 and unified data APIs to cryptocurrency markets.
-*/}                
               </h4>
               <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
 {/*
@@ -395,7 +393,7 @@ const IndexPage = () => (
 
       <section id="cases">
         <div className="container">
-          <div className="row case-hide">
+          <div className="row">
             <div className="content-box">
               <h3 className="section-heading">How to use</h3>
             </div>
