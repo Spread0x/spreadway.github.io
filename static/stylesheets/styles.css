@@ -11060,3 +11060,7 @@ footer .bottom-footer {
 .case-hide, #pricing-hide {
   display: none;
 }
+
+section#site-main.site-main-blue {
+    background: radial-gradient(circle at 104%, #5bccde, #58bdcc 30%, #66b5c1 65%, #5aa5b1 75%);
+}

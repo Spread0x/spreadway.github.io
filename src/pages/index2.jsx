@@ -4,8 +4,12 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import jquery from 'jquery';
 
+const windowGlobal = typeof window !== 'undefined' && window
+
 try {
-  window.$ = window.jQuery=jquery;
+  if (windowGlobal) {
+    window.$ = window.jQuery=jquery;
+  }
 } catch (e) {
   console.log(e)
 }
@@ -13,12 +17,12 @@ try {
 const IndexPage = () => (
   <Layout>
    <div>
-      <section id="site-main">
+      <section id="site-main" className="site-main-blue">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                atch your experience with a (job,task,startup,project) that you can join right now  <br />
+                Match your experience with a (job,task,startup,project) that you can join right now  <br />
                 (in the chicken-egg problem this will be considered as trolling) <br />
               </h2>
               <h4 className="fadeInLeft animate">

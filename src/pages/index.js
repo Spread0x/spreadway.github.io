@@ -4,11 +4,16 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import jquery from 'jquery';
 
+const windowGlobal = typeof window !== 'undefined' && window
+
 try {
-  window.$ = window.jQuery=jquery;
+  if (windowGlobal) {
+    window.$ = window.jQuery=jquery;
+  }
 } catch (e) {
   console.log(e)
 }
+
 
 const IndexPage = () => (
   <Layout>
@@ -18,8 +23,7 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                Find faster and qualified freelancers for your <br />
-                  task <br />
+                Find faster and qualified freelancers for your task<br />
               </h2>
               <h4 className="fadeInLeft animate">
                 (job, startup, project)
