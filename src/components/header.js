@@ -1,6 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+const locationActive = (at) => {
+  if (document.location.pathname == at) {
+    return 'active'
+  } else {
+    return ''
+  }
+
+}
+
 const Header = ({ siteTitle, headerClassName }) => (
       <nav className={["navbar navbar-default navbar-fixed-top affix-top"].concat([headerClassName]).join(' ')}  data-spy="affix" data-offset-top={800} role="navigation">
         <div className="container">
@@ -18,7 +27,9 @@ const Header = ({ siteTitle, headerClassName }) => (
               {/*<a href="/pricing?apikey" className="btn btn-subscribe">Get a free API key</a>*/}
             </form>
             <ul className="nav navbar-nav navbar-right">
-              <li className="active"><a href="/">Product</a></li>
+              <li className={locationActive('/')}><a href="/">For Clients</a></li>
+              <li className={locationActive('/index2/')}><a href="/index2/">For Freelancers</a></li>
+
               <li><a href="#pricing" id="pricing-hide">Pricing</a></li>
               {/*<li><a href="https://docs.spread0x.com/" target="_blank">Docs</a></li>
                 <li><a target="_blank" href="/faq">FAQ</a></li>

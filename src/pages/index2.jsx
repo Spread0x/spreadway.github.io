@@ -34,7 +34,7 @@ const IndexPage = () => (
 */}
             </div>
             <div className="col-md-6 spread-images">
-              <img src="/images/main2.svg" className="spread-main" alt="exchanges" />
+              <img src="/images/main2.svg" className="spread-main spread-main-promo-img2" alt="exchanges" />
             </div>
           </div>
         </div>
@@ -415,7 +415,7 @@ const IndexPage = () => (
                 <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
               </div>
             </div>
-                                                                  
+
             </div>
           </div>
           <div className="row">
