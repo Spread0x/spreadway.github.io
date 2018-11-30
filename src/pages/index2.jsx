@@ -35,7 +35,7 @@ const IndexPage = () => (
 */}
             </div>
             <div className="col-md-6 spread-images">
-              <img src="/images/main.svg" className="spread-main" alt="exchanges" />
+              <img src="/images/main2.svg" className="spread-main" alt="exchanges" />
             </div>
           </div>
         </div>
