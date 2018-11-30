@@ -8375,6 +8375,11 @@ section .content-box .section-heading {
   color: #77baff
 }
 
+.navbar-default.blue .navbar-nav li a:hover {
+  background-color: transparent;
+  color: #9ef1ff
+}
+
 .navbar-default .navbar-nav .active a {
   background-color: transparent;
   color: #77baff;
@@ -8635,29 +8640,6 @@ section#site-main .container h2 {
   margin-bottom: 20px
 }
 
-@media(max-width:990px) {
-  section#site-main .container h2 {
-    text-align: center
-  }
-}
-
-section#site-main .container h4 {
-  color: #fff;
-  font-weight: 500
-}
-
-@media(max-width:990px) {
-  section#site-main .container h4 {
-    margin-top: 600px;
-    text-align: center
-  }
-}
-
-@media(max-width:420px) {
-  section#site-main .container h4 {
-    margin-top: 400px
-  }
-}
 
 section#site-main .container .btn-api {
   background-color: #44b9ff;
@@ -8695,38 +8677,6 @@ section#site-main .container .spread-images {
   position: relative
 }
 
-section#site-main .container .spread-images .spread-main {
-  position: absolute;
-  top: -102px;
-  z-index: 1;
-  max-width: 659px
-}
-
-@media(max-width:1300px) {
-  section#site-main .container .spread-images .spread-main {
-    width: 100%
-  }
-}
-
-@media(max-width:1200px) and (min-width:768px) {
-  section#site-main .container .spread-images .spread-main {
-    top: 0
-  }
-}
-
-@media(max-width:990px) {
-  section#site-main .container .spread-images .spread-main {
-    top: -715px;
-    left: 0;
-    right: 0
-  }
-}
-
-@media(max-width:420px) {
-  section#site-main .container .spread-images .spread-main {
-    top: -670px
-  }
-}
 
 section#site-main .container .spread-images .coinapi-exchanges .show-hide {
   position: absolute;
@@ -9728,18 +9678,6 @@ section#cases .container {
   text-align: center
 }
 
-section#cases .container .cases-box {
-  width: 100%;
-  height: 250px;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0 5px 50px rgba(232, 244, 255, .5);
-  padding: 80px 40px 25px;
-  text-align: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-  position: relative
-}
 
 section#cases .container .cases-box .cases-text {
   position: absolute;
@@ -9762,7 +9700,6 @@ section#cases .container .cases-box img {
   -moz-transition: opacity .4s ease-in-out;
   -o-transition: opacity .4s ease-in-out;
   transition: opacity .4s ease-in-out;
-  max-height: 70px
 }
 
 section#cases .container .cases-box h6 {
@@ -11015,8 +10952,6 @@ section#cases .container .cases-box img {
     -moz-transition: opacity .4s ease-in-out;
     -o-transition: opacity .4s ease-in-out;
     transition: opacity .4s ease-in-out;
-    max-height: 70px;
-    margin-right: 50px;
 }
 
 .hidden-success {
@@ -11055,6 +10990,10 @@ footer .bottom-footer {
 .affix .navbar-collapse li:last-child a {
     border: none;
 }
+.navbar-default.blue .navbar-nav .active a {
+    color: #2e646d;
+}
+
 .navbar-default.blue .navbar-nav .active a {
     color: #2e646d;
 }
