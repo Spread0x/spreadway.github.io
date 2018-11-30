@@ -11055,6 +11055,9 @@ footer .bottom-footer {
 .affix .navbar-collapse li:last-child a {
     border: none;
 }
+.navbar-default.blue .navbar-nav .active a {
+    color: #2e646d;
+}
 
 .case-hide, #pricing-hide {}
 section#site-main.site-main-blue {

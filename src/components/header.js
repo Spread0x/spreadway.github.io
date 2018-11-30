@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Header = ({ siteTitle }) => (
-      <nav className="navbar navbar-default navbar-fixed-top affix-top" data-spy="affix" data-offset-top={800} role="navigation">
+const Header = ({ siteTitle, headerClassName }) => (
+      <nav className={["navbar navbar-default navbar-fixed-top affix-top"].concat([headerClassName]).join(' ')}  data-spy="affix" data-offset-top={800} role="navigation">
         <div className="container">
           <div className="navbar-header">
             <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">

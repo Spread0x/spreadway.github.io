@@ -17,7 +17,7 @@ import Footer from './footer'
 
 import './layout.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, headerClassName }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -53,7 +53,7 @@ const Layout = ({ children }) => (
       <script src="/javascripts/lib/jquery/jquery.js" type="text/javascript"></script>
       <script src="/javascripts/js/site.js" type="text/javascript"></script>
       </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} headerClassName={headerClassName} />
         <div className="page-wrapper">
           {children}
         </div>
