@@ -767,3 +767,8 @@ section#cases .container .cases-box img {
     margin-top: 76px;
 }  
 }
+
+
+section#site-main.site-main-blue .container .btn-api {
+    background-color: #00BCD4;
+}

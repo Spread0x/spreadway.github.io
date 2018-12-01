@@ -1,12 +1,28 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+
+
 const locationActive = (at) => {
-  if (document.location.pathname == at) {
-    return 'active'
-  } else {
+
+  const windowGlobal = typeof document !== 'undefined' && document
+
+  try {
+    if (windowGlobal) {
+
+      if (document.location.pathname == at) {
+        return 'active'
+      } else {
+        return ''
+      }
+    }
+  } catch (e) {
+    console.log(e)
     return ''
   }
+
+
+
 
 }
 
