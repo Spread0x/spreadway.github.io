@@ -5,6 +5,9 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
+    "child_process": "^1.0.2",
+    "classnames": "^2.2.6",
+    "fs": "0.0.1-security",
     "gatsby": "^2.0.19",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
@@ -14,10 +17,12 @@
     "jsdom": "^13.0.0",
     "location": "0.0.1",
     "navigator": "^1.0.1",
+    "net": "^1.0.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "reactstrap": "^6.5.0",
+    "tls": "0.0.1",
     "xmlhttprequest": "^1.8.0"
   },
   "keywords": [

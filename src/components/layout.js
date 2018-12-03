@@ -15,6 +15,9 @@ import {
 import Header from './header'
 import Footer from './footer'
 
+import classNames from 'classnames'
+
+
 import './layout.css'
 
 const Layout = ({ children, headerClassName }) => (
