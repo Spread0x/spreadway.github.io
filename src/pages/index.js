@@ -407,39 +407,31 @@ const IndexPage = () => (
               <div className="cases-box fadeInLeft animate">
                 <img src="/images/undraw_printing_invoices_5r4r.svg" className="spread-main" alt="exchanges" />            
                 <div className="case-desc">
-                  <h4>lorem</h4>
+                  <h4>Post your job offer</h4>
                   <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
                 </div>
               </div>
               <div className="cases-box fadeInLeft animate">
                 <img src="/images/undraw_schedule_pnbk.svg" alt="portfolio valuation" />
                 <div className="case-desc">
-                  <h4>lorem</h4>
+                  <h4>Let us match the task with freelancers</h4>
                   <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
                 </div>
               </div>
               <div className="cases-box fadeInLeft animate">
                 <img src="/images/undraw_schedule_pnbk.svg" alt="portfolio valuation" />
                 <div className="case-desc">
-                  <h4>lorem</h4>
+                  <h4>Choose one among the fittest</h4>
                   <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
                 </div>
               </div>
               <div className="cases-box fadeInLeft animate">
                 <img src="/images/undraw_schedule_pnbk.svg" alt="portfolio valuation" />
                 <div className="case-desc">
-                  <h4>lorem</h4>
+                  <h4>Get the work done</h4>
                   <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
                 </div>
               </div>
-              <div className="cases-box fadeInLeft animate">
-                <img src="/images/undraw_schedule_pnbk.svg" alt="portfolio valuation" />
-                <div className="case-desc">
-                  <h4>lorem</h4>
-                  <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
-                </div>
-              </div>              
-
             </div>
           </div>
           <div className="row">

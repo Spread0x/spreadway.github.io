@@ -404,18 +404,31 @@ const IndexPage = () => (
                <div className="cases-box fadeInLeft animate">
                 <img src="/images/undraw_printing_invoices_5r4r.svg" className="spread-main" alt="exchanges" />            
                 <div className="case-desc">
-                  <h4>lorem</h4>
+                  <h4>Register with github profile</h4>
                   <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
                 </div>
               </div>
              <div className="cases-box fadeInLeft animate">
               <img src="/images/undraw_printing_invoices_5r4r.svg" className="spread-main" alt="exchanges" />            
               <div className="case-desc">
-                <h4>lorem</h4>
+                <h4>Let us parse your commits and validate your experience</h4>
                 <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
               </div>
             </div>
-
+             <div className="cases-box fadeInLeft animate">
+              <img src="/images/undraw_printing_invoices_5r4r.svg" className="spread-main" alt="exchanges" />            
+              <div className="case-desc">
+                <h4>Wait for offers that you match with</h4>
+                <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
+              </div>
+            </div>
+             <div className="cases-box fadeInLeft animate">
+              <img src="/images/undraw_printing_invoices_5r4r.svg" className="spread-main" alt="exchanges" />            
+              <div className="case-desc">
+                <h4>Where the actual work starts</h4>
+                <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
+              </div>
+            </div>
             </div>
           </div>
           <div className="row">
