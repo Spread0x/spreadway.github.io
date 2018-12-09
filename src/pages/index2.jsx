@@ -431,6 +431,45 @@ const IndexPage = () => (
             </div>
             </div>
           </div>
+</div></section>
+
+
+      <section id="benefits">
+        <div className="container">
+
+          <div className="row benifit">
+            <div className="content-box">
+              <h3 className="section-heading">Benefits</h3>
+            </div>
+            <div className="col-mdd-12">
+              <div className="benefits-box fadeInLeft animate">
+                <img src="/images/step1customer.svg" className="spread-main" alt="exchanges" />            
+                <div className="benifit-desc">
+                  <h4>Post your job offer</h4>
+                  <h6 className="benefits-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
+                </div>
+              </div>
+              <div className="benefits-box fadeInLeft animate">
+                <img src="/images/step2customer.svg" alt="portfolio valuation" />
+                <div className="benifit-desc">
+                  <h4>Let us match the task with freelancers</h4>
+                  <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
+                </div>
+              </div>
+              <div className="benefits-box fadeInLeft animate">
+                <div className="benifit-desc">
+                  <h4>Choose one among the fittest</h4>
+                  <h6 className="benefits-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
+                </div>
+                <img src="/images/step3customer.svg" alt="portfolio valuation" />
+                
+              </div>
+            </div>
+          </div>
+</div></section>
+
+      <section id="cases">
+        <div className="container">
           <div className="row">
             <div className="content-box wanna-try">
               <h3 className="section-heading fadeInDown animate">Wanna try?</h3>             

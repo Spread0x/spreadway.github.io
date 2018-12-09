@@ -753,7 +753,7 @@ section#site-main .container .spread-images .spread-main {
 
 @media(max-width:990px) {
   section#site-main .container .spread-images .spread-main {
-    top: -415px;
+    top: -386px;
     left: 0;
     right: 0
   }
@@ -783,4 +783,111 @@ section#cases .container .cases-box h4 {
 section#cases .container .cases-box .case-desc {
     margin-top: -65px;
     width: 100%;
+}
+
+
+
+section#benefits {
+    background-image: url(https://www.cryptotick.com/images/blue_bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+section#benefits .container .benefits-box {
+    display: flex;
+}
+
+section#benefits .container .benefits-box {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 5px 50px rgba(232, 244, 255, .5);
+    padding: 80px 40px 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section#benefits .container .benefits-box img {
+    width: 420px;
+    height: 212px;
+}
+#benefits h3.section-heading {
+    text-align: center;
+}
+h4 {
+    font-size: 16px;
+    line-height: 21px;
+}
+@media (max-width: 768px) {
+
+section#site-main .container .spread-images img.spread-main.spread-main-promo-img2 {
+ top: -425px;
+}
+
+section#site-main .container .btn-api {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+section#benefits .container .benefits-box img {
+    width: 229px;
+    height: 168px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.col-mdd-12 {
+    display: block;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-content: safe;
+}
+section#cases .container .cases-box {
+      width: 90%;
+    margin: 0 auto;
+}
+
+}
+section#benefits .container .benefits-box {
+    text-align: left;
+}
+section#benefits .container .benefits-box.benefits-box-center {
+    display: block;
+    padding-bottom: 10px;
+    height: 100%;
+    text-align: center;
+    padding-top: 35px;
+}
+
+section#benefits .container .benefits-box.benefits-box-center img {
+    margin-top: 41px;
+    display: block;
+    margin: 22px auto;
+    padding-bottom: 5px;
+}
+
+section#site-main .container h2 {
+  text-align: center;
+}
+
+.benifit-desc h6 {
+    font-weight: 500;
+    line-height: 20px;
+    color: #495e80;
 }
