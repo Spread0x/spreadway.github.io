@@ -48,7 +48,7 @@ const Layout = ({ children, headerClassName }) => (
       <meta name="keywords" content="spread, freelance, upwork, market data" />
       <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon" />
       <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon" />
-      <title>Spread - Freelancer platform with AI for finding </title>
+      <title>Spread - AI-powered freelance platform</title>
       <link rel="stylesheet" href="/stylesheets/boostrap.css" />
       <link href="/stylesheets/styles.css" rel="stylesheet" media="screen" />
       <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen" />

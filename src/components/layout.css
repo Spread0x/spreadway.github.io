@@ -775,3 +775,12 @@ section#site-main.site-main-blue .container .btn-api {
 .cases-text2 {
   display: none;
 }
+
+section#cases .container .cases-box h4 {
+  text-align: center;
+}
+
+section#cases .container .cases-box .case-desc {
+    margin-top: -65px;
+    width: 100%;
+}
