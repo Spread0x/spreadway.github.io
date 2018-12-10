@@ -891,3 +891,8 @@ section#site-main .container h2 {
     line-height: 20px;
     color: #495e80;
 }
+
+section#cases .container .cases-box h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
