@@ -31,7 +31,9 @@ const IndexPage = () => (
                 and unified data APIs to cryptocurrency markets.
 */}                
               </h4>
-              <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
+              <div className="early-access-container">
+                <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
+              </div>
 {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
 */}

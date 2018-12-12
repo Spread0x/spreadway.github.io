@@ -711,10 +711,11 @@ section#cases .container .cases-box .case-desc {
 }
 
 
-
 #site-main h4 {
     color: #ffffffbd;
+    text-align: center;
 }
+
 
 section#cases .container .cases-box h6 {
     -webkit-transition: opacity .4s ease-in-out;
@@ -898,4 +899,20 @@ section#cases .container .cases-box h4 {
 
 .affix {
     box-shadow: #f7f7f7 1px 1px 1px;
+}
+
+
+.early-access-container {
+    display: block;
+    width: 100%;
+}
+
+section#site-main .container .btn-api {
+    background-color: #44b9ff;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+section#site-main.site-main-blue .container .btn-api {
+    background-color: #627FD5;
 }
