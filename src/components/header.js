@@ -44,7 +44,7 @@ const Header = ({ siteTitle, headerClassName }) => (
             </form>
             <ul className="nav navbar-nav navbar-right">
               <li className={locationActive('/')}><a href="/">For Clients</a></li>
-              <li className={locationActive('/index2/')}><a href="/index2/">For Freelancers</a></li>
+              <li className={locationActive('/freelancers/')}><a href="/freelancers/">For Freelancers</a></li>
 
               <li><a href="#pricing" id="pricing-hide">Pricing</a></li>
               {/*<li><a href="https://docs.spread0x.com/" target="_blank">Docs</a></li>
