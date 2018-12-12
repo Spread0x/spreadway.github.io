@@ -8362,7 +8362,7 @@ section .content-box .section-heading {
 .navbar-default .navbar-nav li a {
   color: #fff;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 40px;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -8634,10 +8634,10 @@ section#site-main {
 }
 
 section#site-main .container h2 {
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: -2px;
-  margin-bottom: 20px
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
 }
 
 
