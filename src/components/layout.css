@@ -916,3 +916,11 @@ section#site-main .container .btn-api {
 section#site-main.site-main-blue .container .btn-api {
     background-color: #627FD5;
 }
+section#site-main.site-main-darkgray {
+    background: radial-gradient(circle at 104%, #8a8a8a, #676666 30%, #4c4c4c 65%, #464646 75%);
+}
+section#site-main.site-main-darkgray .container .btn-api {
+    background-color: #CFD8DC;
+    color: #000;
+}
+
