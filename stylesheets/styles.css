@@ -9650,7 +9650,8 @@ section#cdn .container .content-box .text-blue {
   color: #01d0d9
 }
 
-section#cases {
+section#cases, 
+section#cases2 {
   background-image: url(https://www.coinapi.io/images/cases_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -9709,24 +9710,28 @@ section#cases .container .cases-box h6 {
   transition: opacity .4s ease-in-out
 }
 
-section#cases .container .wanna-try {
+section#cases2 .container .wanna-try {
   padding-top: 60px
 }
 
-section#cases .container .wanna-try h3 {
+section#cases2 .container .wanna-try h3 {
   color: #6881a9
 }
 
-section#cases .container .wanna-try h6 {
+section#cases2 .container .wanna-try h6 {
   line-height: 30px
 }
 
-section#cases .container .wanna-try .btn-api {
+section#cases2 .container .wanna-try .btn-api {
   background-color: #6861ff;
   margin-top: 20px
 }
 
-section#cases .container .wanna-try .btn-api:hover {
+section#cases2 .container .wanna-try {
+    padding-top: 60px;
+    text-align: center;
+}
+section#cases2 .container .wanna-try .btn-api:hover {
   background-color: #4f49db;
   color: #fff
 }
