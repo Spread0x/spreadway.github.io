@@ -32,7 +32,7 @@ const IndexPage = () => (
 */}                
 
               <div className="early-access-container">
-                <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
+                <a className="btn btn-api fadeInUp animate" href="/?">Get updates</a>
               </div>
 {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
@@ -476,10 +476,10 @@ const IndexPage = () => (
         <div className="container">
           <div className="row">
             <div className="content-box wanna-try">
-              <h3 className="section-heading fadeInDown animate">Wanna try?</h3>             
+              <h3 className="section-heading fadeInDown animate">Intrested?</h3>             
               <p>
-                This is perhaps the perfect moment to stop reading<br />
-                and do some clicking instead.
+                Leave your name and email to get updates<br />
+                on the development.
               </p>
               <p className="hidden-success">Thanks!</p>
               <form action="https://send.pageclip.co/0pHRl3IHAP0G7NyWOex5HGulUEV34j1a/contact-form" className="pageclip-form" 
@@ -490,7 +490,7 @@ const IndexPage = () => (
                   <input type="email" className="form-control" name="email" placeholder="john@acme.com" />
                 </div>
                 {/* This button will have a loading spinner. Keep the inner span for best results. */}
-                <button type="submit" className="btn btn-api fadeInUp animate">Get early access</button>
+                <button type="submit" className="btn btn-api fadeInUp animate">Get updates</button>
               </form>               
           </div></div>
         </div>
