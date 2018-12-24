@@ -2,13 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-var jquery = require('jquery');
-
+import jquery from 'jquery';
 
 const windowGlobal = typeof window !== 'undefined' && window
 
 try {
-  if (windowGlobal !== undefined && jquery !== undefined ) {
+  if (windowGlobal) {
     window.$ = window.jQuery=jquery;
   }
 } catch (e) {
