@@ -1,4 +1,6 @@
 $( document ).ready(function() {
+        $('.early-access-container a.bth').scrollTo('#cases');
+  
           var typed = new Typed("#indexheadertypings", {
           strings: ['job', 'task', 'startup', 'project'],
           typeSpeed: 100,
