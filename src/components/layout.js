@@ -14,11 +14,11 @@ import {
 } from "reactstrap";
 import Header from './header'
 import Footer from './footer'
-
 import classNames from 'classnames'
-
-
 import './layout.css'
+//import Typed from 'typed.js';
+
+
 
 const Layout = ({ children, headerClassName }) => (
   <StaticQuery
@@ -55,6 +55,10 @@ const Layout = ({ children, headerClassName }) => (
       <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8" />
       <script src="/javascripts/lib/jquery/jquery.js" type="text/javascript"></script>
       <script src="/javascripts/js/site.js" type="text/javascript"></script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+      <script>
+      {``}    
+      </script>  
       </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} headerClassName={headerClassName} />
         <div className="page-wrapper">
@@ -65,6 +69,8 @@ const Layout = ({ children, headerClassName }) => (
     )}
   />
 )
+
+
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

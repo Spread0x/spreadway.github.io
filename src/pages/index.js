@@ -2,17 +2,19 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import jquery from 'jquery';
+var jquery = require('jquery');
+
 
 const windowGlobal = typeof window !== 'undefined' && window
 
 try {
-  if (windowGlobal) {
+  if (windowGlobal !== undefined && jquery !== undefined ) {
     window.$ = window.jQuery=jquery;
   }
 } catch (e) {
   console.log(e)
 }
+
 
 
 const IndexPage = () => (
@@ -25,12 +27,11 @@ const IndexPage = () => (
               <h2 className="fadeInLeft animate">
                 Quickly find qualified freelancers for your<br />
               </h2>
-              <h4 className="fadeInLeft animate">
-                (job, task, startup, project)
+              <h4 className="fadeInLeft animate"><span id="indexheadertypings"></span></h4>
 {/*                Spread is a platform which provides fast, reliable<br />
                 and unified data APIs to cryptocurrency markets.
 */}                
-              </h4>
+
               <div className="early-access-container">
                 <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
               </div>
@@ -405,29 +406,29 @@ const IndexPage = () => (
             <div className="content-box">
               <h3 className="section-heading">How to use</h3>
             </div>
-            <div className="col-mdd-12">
-              <div className="cases-box fadeInLeft animate">
+            <div className="col-mdd-12 fadeInLeft animate">
+              <div className="cases-box">
                 <img src="/images/step1customer.svg" className="spread-main" alt="exchanges" />            
                 <div className="case-desc">
                   <h4>Post your job offer</h4>
                   <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
                 </div>
               </div>
-              <div className="cases-box fadeInLeft animate">
+              <div className="cases-box">
                 <img src="/images/step2customer.svg" alt="portfolio valuation" />
                 <div className="case-desc">
                   <h4>Let us match the task with freelancers</h4>
                   <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
                 </div>
               </div>
-              <div className="cases-box fadeInLeft animate">
+              <div className="cases-box">
                 <img src="/images/step3customer.svg" alt="portfolio valuation" />
                 <div className="case-desc">
                   <h4>Choose one among the fittest</h4>
                   <h6 className="cases-text2">Get a precise valuation of portfolios containing multiple cryptocurrency assets, using a single API call.</h6>
                 </div>
               </div>
-              <div className="cases-box fadeInLeft animate">
+              <div className="cases-box">
                 <img src="/images/step4customer.svg" alt="portfolio valuation" />
                 <div className="case-desc">
                   <h4>Get the work done</h4>
@@ -449,23 +450,22 @@ const IndexPage = () => (
               <div className="benefits-box fadeInLeft animate">
                 <img src="/images/ben1.svg" className="spread-main" alt="exchanges" />            
                 <div className="benifit-desc">
-                  <h4>No time waste on filtering responses</h4>
-                  <h6 className="benefits-text2">For clients we provide easy, yet reliable way to save time providing you 10 best matches of freelancers for your task, based on the task description, price range and other settings.</h6>
+                  <h4>Efficient use of client time</h4>
+                  <h6 className="benefits-text2">Clients receive up to 10 best matching freelancers for the tasks you have supplied based on the task description, price, and other settings.</h6>
                 </div>
               </div>
 
               <div className="benefits-box fadeInLeft animate">
                 <div className="benifit-desc">
-                  <h4>No time waste on proving freelancer experience</h4>
-                  <h6 className="benefits-text2">We believe freelancers spend too much time on looking for work and proving their experience. We want to help by automated skill evaluation and recommendation system through our Neural Network.</h6>
+                  <h4>Streamlined matching for freelancers</h4>
+                  <h6 className="benefits-text2">We believe freelancers loose too much time hunting for work. We want to reduce wasted time via automated skill evaluation and matching with our Neural Network.</h6>
                 </div>
                 <img src="/images/ben2.svg" alt="portfolio valuation" />
               </div>
               <div className="benefits-box benefits-box-right fadeInLeft animate">
                 <div className="benifit-desc">
-                  <h4>Extra low fees</h4>
-                  <h6 className="benefits-text2">Just 9% flat fee of our services. Additional fee of payment system of no more than 2.75% will apply. We don't hide the information, we say as it is.
-For freelancers it means more money to make compared to the other most popular freelance platforms.</h6>
+                  <h4>Amazing pricing</h4>
+                  <h6 className="benefits-text2">We charge a flat 9% fee (payment processors may charge extra when paying through their service). No hidden extra fees. Our services are affordable so you can get on with the job and also come out on top.</h6>
                 </div>
                 <img src="/images/ben3.svg" alt="portfolio valuation" />                
               </div>
@@ -499,5 +499,8 @@ For freelancers it means more money to make compared to the other most popular f
     </div>
   </Layout>
 )
+
+
+
 
 export default IndexPage

@@ -18,11 +18,13 @@
     "location": "0.0.1",
     "navigator": "^1.0.1",
     "net": "^1.0.2",
+    "prettylog": "^0.1.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "reactstrap": "^6.5.0",
     "tls": "0.0.1",
+    "typed.js": "^2.0.9",
     "xmlhttprequest": "^1.8.0"
   },
   "keywords": [

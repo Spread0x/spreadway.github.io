@@ -22,7 +22,7 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                Match your experience with a project that you can join right now  <br />
+                Match your experience with projects you can join right now<br />
               </h2>
               <h4 className="fadeInLeft animate">
                 Spread is a platform which provides fast, reliable<br />
@@ -404,28 +404,28 @@ const IndexPage = () => (
                <div className="cases-box fadeInLeft animate">
                 <img src="/images/step1freelancer.svg" className="spread-main" alt="exchanges" />            
                 <div className="case-desc">
-                  <h4>Register with github profile</h4>
+                  <h4>Register your github profile</h4>
                   <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
                 </div>
               </div>
              <div className="cases-box fadeInLeft animate">
               <img src="/images/step2freelancer.svg" className="spread-main" alt="exchanges" />            
               <div className="case-desc">
-                <h4>Let us parse your commits and validate your experience</h4>
+                <h4>We evaluate your commits and validate your level of experience</h4>
                 <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
               </div>
             </div>
              <div className="cases-box fadeInLeft animate">
               <img src="/images/step3freelancer.svg" className="spread-main" alt="exchanges" />            
               <div className="case-desc">
-                <h4>Wait for offers that you match with</h4>
+                <h4>Wait for our system to match you with relevant projects</h4>
                 <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
               </div>
             </div>
              <div className="cases-box fadeInLeft animate">
               <img src="/images/step4freelancer.svg" className="spread-main" alt="exchanges" />            
               <div className="case-desc">
-                <h4>Where the actual work starts</h4>
+                <h4>Begin work — begin being awesome 🔥 </h4>
                 <h6 className="cases-text2">Use our history intraday market data for backtesting your models, and our real-time market data stream for live trading and proactive portfolio risk management.</h6>
               </div>
             </div>
@@ -443,27 +443,26 @@ const IndexPage = () => (
             </div>
 
 
-<div className="col-mdd-12">
-              <div className="benefits-box fadeInLeft animate">
+<div className="col-mdd-12 animate">
+              <div className="benefits-box fadeInLeft">
                 <img src="/images/ben1.svg" className="spread-main" alt="exchanges" />            
                 <div className="benifit-desc">
-                  <h4>No time waste on filtering responses</h4>
-                  <h6 className="benefits-text2">For clients we provide easy, yet reliable way to save time providing you 10 best matches of freelancers for your task, based on the task description, price range and other settings.</h6>
+                  <h4>Efficient use of client time</h4>
+                  <h6 className="benefits-text2">Clients receive up to 10 best matching freelancers for the tasks you have supplied based on the task description, price, and other settings.</h6>
                 </div>
               </div>
 
-              <div className="benefits-box fadeInLeft animate">
+              <div className="benefits-box fadeInLeft">
                 <div className="benifit-desc">
-                  <h4>No time waste on proving freelancer experience</h4>
-                  <h6 className="benefits-text2">We believe freelancers spend too much time on looking for work and proving their experience. We want to help by automated skill evaluation and recommendation system through our Neural Network.</h6>
+                  <h4>Streamlined matching for freelancers</h4>
+                  <h6 className="benefits-text2">We believe freelancers loose too much time hunting for work. We want to reduce wasted time via automated skill evaluation and matching with our Neural Network.</h6>
                 </div>
                 <img src="/images/ben2.svg" alt="portfolio valuation" />
               </div>
-              <div className="benefits-box benefits-box-right fadeInLeft animate">
+              <div className="benefits-box benefits-box-right fadeInLeft">
                 <div className="benifit-desc">
-                  <h4>Extra low fees</h4>
-                  <h6 className="benefits-text2">Just 9% flat fee of our services. Additional fee of payment system of no more than 2.75% will apply. We don't hide the information, we say as it is.
-For freelancers it means more money to make compared to the other most popular freelance platforms.</h6>
+                  <h4>Amazing pricing</h4>
+                  <h6 className="benefits-text2">We charge a flat 9% fee (payment processors may charge extra when paying through their service). No hidden extra fees. Our services are affordable so you can get on with the job and also come out on top.</h6>
                 </div>
                 <img src="/images/ben3.svg" alt="portfolio valuation" />                
               </div>

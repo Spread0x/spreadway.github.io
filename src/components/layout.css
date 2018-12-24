@@ -653,16 +653,14 @@ section#cases .container .cases-box {
 }
 
 section#cases .container .cases-box img {
-    transition: opacity .4s ease-in-out;
     max-height: 360px;
     margin-left: -29px;
     position: absolute;
-    z-index: -1;
     width: 654px;
     height: 200px !important;
     display: block;
     margin-top: -120px;
-    opacity: 0.6;
+    opacity: 1;
     vertical-align: middle;
     margin-top: 30px;
 }
@@ -886,9 +884,23 @@ section#site-main .container h2 {
 }
 
 .benifit-desc h6 {
-    font-weight: 500;
     line-height: 20px;
     color: #495e80;
+    font-size: 14px;
+    line-height: 2.1;
+    font-weight: 400;
+}
+section#cases .container .cases-box:hover {
+    box-shadow: 1px 1px 5px #dfe3e4e8;
+    transition: 1s all;
+    -webkit-transform: scale(3.5);
+    transform: translate3d(0px, 10px, 0px);
+}
+section#cases .container .cases-box {
+  transition: 1s all;
+}    
+.benifit-desc h4 {
+    font-size: 18px;
 }
 
 section#cases .container .cases-box h4 {
