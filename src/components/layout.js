@@ -56,6 +56,7 @@ const Layout = ({ children, headerClassName }) => (
       <script src="/javascripts/lib/jquery/jquery.js" type="text/javascript"></script>
       <script src="/javascripts/js/site.js" type="text/javascript"></script>
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
       <script>
       {``}    
       </script>  

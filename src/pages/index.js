@@ -32,7 +32,7 @@ const IndexPage = () => (
 */}                
 
               <div className="early-access-container">
-                <a className="btn btn-api fadeInUp animate" href="/?">Get updates</a>
+                <a className="btn btn-api fadeInUp animate" onClick={ () => document.getElementById("cases").scrollIntoView() }>Get updates</a>
               </div>
 {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
@@ -472,7 +472,7 @@ const IndexPage = () => (
           </div>
     </div></section>
 
-      <section id="cases">
+      <section id="cases2">
         <div className="container">
           <div className="row">
             <div className="content-box wanna-try">

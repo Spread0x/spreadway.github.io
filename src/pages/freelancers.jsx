@@ -28,7 +28,7 @@ const IndexPage = () => (
                 Spread is a platform which provides fast, reliable<br />
                 and unified access to projects.
               </h4>
-              <a className="btn btn-api fadeInUp animate" href="/?">Get updates</a>
+              <a className="btn btn-api fadeInUp animate" onClick={ () => document.getElementById("cases").scrollIntoView() }>Get updates</a>
 {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
 */}
@@ -471,7 +471,7 @@ const IndexPage = () => (
           </div>
 </div></section>
 
-      <section id="cases">
+      <section id="cases2">
         <div className="container">
           <div className="row">
             <div className="content-box wanna-try">
