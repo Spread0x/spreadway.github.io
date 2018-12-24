@@ -938,6 +938,15 @@ section#site-main.site-main-darkgray .container .btn-api {
     background-color: #CFD8DC;
     color: #000;
 }
+section#cases2 .content-box .section-heading {
+    text-align: center;
+}
+
+section#cases2 .content-box p {
+    text-align: center;
+}
+
+
 @media(max-width: 420px) {
   section#site-main .container h4 {
   }

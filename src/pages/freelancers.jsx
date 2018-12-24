@@ -24,10 +24,10 @@ const IndexPage = () => (
               <h2 className="fadeInLeft animate">
                 Match your experience with projects you can join right now<br />
               </h2>
-              <h4 className="fadeInLeft animate">
+              {/*<h4 className="fadeInLeft animate">
                 Spread is a platform which provides fast, reliable<br />
                 and unified access to projects.
-              </h4>
+              </h4>*/}
               <a className="btn btn-api fadeInUp animate" onClick={ () => document.getElementById("cases").scrollIntoView() }>Get updates</a>
 {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>

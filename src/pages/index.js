@@ -24,10 +24,12 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                Quickly find qualified freelancers for your<br />
+                <span>Quickly find qualified freelancers for your</span> <span id="indexheadertypings"></span>
               </h2>
-              <h4 className="fadeInLeft animate"><span id="indexheadertypings"></span></h4>
-{/*                Spread is a platform which provides fast, reliable<br />
+
+{/*
+              <h4 className="fadeInLeft animate"></h4>           
+                Spread is a platform which provides fast, reliable<br />
                 and unified data APIs to cryptocurrency markets.
 */}                
 
