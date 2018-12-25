@@ -24,6 +24,7 @@ const IndexPage = () => (
               <h2 className="fadeInLeft animate">
                 Match your experience with projects you can join right now<br />
               </h2>
+              <br />
               {/*<h4 className="fadeInLeft animate">
                 Spread is a platform which provides fast, reliable<br />
                 and unified access to projects.

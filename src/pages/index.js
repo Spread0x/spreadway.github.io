@@ -26,7 +26,7 @@ const IndexPage = () => (
               <h2 className="fadeInLeft animate">
                 <span>Quickly find qualified freelancers for your</span> <span id="indexheadertypings"></span>
               </h2>
-
+              <br />
 {/*
               <h4 className="fadeInLeft animate"></h4>           
                 Spread is a platform which provides fast, reliable<br />

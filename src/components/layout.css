@@ -956,3 +956,8 @@ section#cases2 .content-box p {
     margin-bottom: -169px;
 }
 }
+@media(min-width: 300px) {
+section#benefits .container .benefits-box {
+    height: auto;
+}
+}
