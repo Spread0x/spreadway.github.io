@@ -44,7 +44,7 @@ const Layout = ({ children, headerClassName }) => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
       <meta property="og:image" content="/images/apple-touch-icon.png" />
       <link rel="image_src" href="/images/apple-touch-icon.png" />
-      <meta name="description" content="Spread is a freelance platform which provides fast, reliable and unified access to best freelancers." />
+      <meta name="description" content="Spread provides fast, reliable, unified access to best freelancers." />
       <meta name="keywords" content="spread, freelance, upwork, market data" />
       <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon" />
       <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon" />
