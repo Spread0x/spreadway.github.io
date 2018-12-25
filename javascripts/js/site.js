@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-
           var typed = new Typed("#indexheadertypings", {
           strings: ['job', 'task', 'startup', 'project'],
           typeSpeed: 100,
