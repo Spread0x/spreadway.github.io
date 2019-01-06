@@ -51,7 +51,7 @@ const Footer = ({ siteTitle }) => (
             <div className="row">
               <div className="col-sm-12">
                 <p className="separator-top-1x">
-                  <span className="text-left">Copyright 2018 Empire InCloud LTD. All rights reserved.</span>
+                  <span className="text-left">Copyright 2018-2019 Empire InCloud LTD. All rights reserved.</span>
                 </p></div>
             </div>
           </div>

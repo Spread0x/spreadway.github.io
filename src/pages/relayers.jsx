@@ -22,19 +22,23 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                Match your experience with a project that you can join right now  <br />
+                Automate routines through templates and third-party services
               </h2>
-              <h4 className="fadeInLeft animate">
-                Spread is a platform which provides fast, reliable<br />
+              <div className="early-access-container">
+                <a className="btn btn-api fadeInUp animate" onClick={ () => document.getElementById("cases").scrollIntoView() }>Get updates</a>
+              </div>
+
+{/*
+<h4 className="fadeInLeft animate">
+                Relayers is a platform which provides fast, reliable<br />
                 and unified access to projects.
               </h4>
-              <a className="btn btn-api fadeInUp animate" href="/?">Get early access</a>
-{/*
+
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
 */}
             </div>
             <div className="col-md-6 spread-images">
-              <img src="/images/main2.svg" className="spread-main spread-main-promo-img2" alt="exchanges" />
+              <img src="/images/relayers_main.svg" className="spread-main spread-main-promo-img2" alt="exchanges" />
             </div>
           </div>
         </div>
@@ -398,7 +402,7 @@ const IndexPage = () => (
         <div className="container">
           <div className="row">
             <div className="content-box">
-              <h3 className="section-heading">How to use</h3>
+              <h3 className="section-heading">How it works</h3>
             </div>
             <div className="col-mdd-12">
                <div className="cases-box fadeInLeft animate">
@@ -433,7 +437,7 @@ const IndexPage = () => (
           </div>
 </div></section>
 
-
+{/*
       <section id="benefits">
         <div className="container">
 
@@ -471,6 +475,7 @@ For freelancers it means more money to make compared to the other most popular f
 
           </div>
 </div></section>
+*/}
 
       <section id="cases">
         <div className="container">
