@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Spread | AI-powered freelance platform',
+    title: 'Spread | AI powered freelance platform',
   },
   pathPrefix: "/spreadway.github.io",
   plugins: [

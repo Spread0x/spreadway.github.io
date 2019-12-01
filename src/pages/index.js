@@ -22,15 +22,12 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
-                <span>Quickly find qualified freelancers for your</span>{' '}
-                <span id="indexheadertypings"></span>
+                Quickly find qualified freelancers for your
               </h2>
-              <br />
-              {/*
-              <h4 className="fadeInLeft animate"></h4>           
-                Spread is a platform which provides fast, reliable<br />
-                and unified data APIs to cryptocurrency markets.
-*/}
+              <h4 className="fadeInLeft animate">
+              Supercharge your business and convert more <br />
+              visitors with unique and exciting illustratons.
+              </h4>
 
               <div className="early-access-container">
                 <a
@@ -42,11 +39,11 @@ const IndexPage = () => (
                   Get updates
                 </a>
               </div>
-{/*
+              {/*
               <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
 */}
             </div>
-            <div className="col-md-6 spread-images">
+            <div className="spread-images">
               <img
                 src="/images/main.svg"
                 className="spread-main"
@@ -56,7 +53,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      
+
       <section id="second">
         <div className="container">
           <div className="row case-hide">
