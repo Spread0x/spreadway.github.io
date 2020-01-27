@@ -771,7 +771,6 @@ section#cases .container .cases-box .case-desc {
 }
 
 section#benefits {
-  background-image: url(https://www.cryptotick.com/images/blue_bg.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -883,6 +882,10 @@ section#cases .container .cases-box {
 }
 .benifit-desc h4 {
   font-size: 18px;
+}
+section#cases2 {
+  background: #E2D0BE;
+  color: #2F1904;
 }
 
 section#cases .container .cases-box h4 {

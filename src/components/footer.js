@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Footer = ({ siteTitle }) => (
+const Footer = ({ footerClassName }) => (
 
-      <footer className="footer">
+      <footer className={"footer "+footerClassName}>
         <div className="top-footer">
           <div className="container">
             <div className="row">
@@ -51,7 +51,7 @@ const Footer = ({ siteTitle }) => (
             <div className="row">
               <div className="col-sm-12">
                 <p className="separator-top-1x">
-                  <span className="text-left">Copyright 2018-2019 Empire InCloud LTD. All rights reserved.</span>
+                  <span className="text-left">Copyright 2018-2020 Empire InCloud LTD. All rights reserved.</span>
                 </p></div>
             </div>
           </div>

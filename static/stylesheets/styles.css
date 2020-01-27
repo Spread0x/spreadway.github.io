@@ -3528,6 +3528,9 @@ section#site-main {
   padding-top: 207px;
   padding-bottom: 241px;
 }
+section#site-main.loyal-orange {
+  background: #FEEEE0;
+}
 
 @media (max-width: 1200px) and (min-width: 768px) {
   section#site-main {
@@ -3822,7 +3825,12 @@ section#real_time .container img {
 section#cta {
   background: #464b87;
 }
-
+section.loyal-orange-bleached {
+  background: #FEF3E9;
+}
+section.loyal-orange {
+  background: #FEEEE0;
+}
 section#cdn .container img {
   margin-top: 100px;
   margin-left: -85px;
