@@ -5,6 +5,7 @@ module.exports = {
   pathPrefix: "/spreadway.github.io",
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-tslint',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
