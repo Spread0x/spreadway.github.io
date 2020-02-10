@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import jquery from 'jquery'
+import CTA from './cta';
 
 const windowGlobal = typeof window !== 'undefined' && window
 
@@ -16,201 +17,89 @@ try {
 
 const IndexPage = () => (
   <Layout>
-    <div>
-      <section id="site-main">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <h2 className="fadeInLeft animate">
-                Quickly find qualified freelancers for your
-              </h2>
-              <h4 className="fadeInLeft animate">
+    <section id="site-main">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <h2 className="fadeInLeft animate">
+              Quickly find qualified freelancers for your
+            </h2>
+            <h4 className="fadeInLeft animate">
               Supercharge your business and convert more <br />
               visitors with unique and exciting illustratons.
-              </h4>
+            </h4>
 
-              <div className="early-access-container">
-                <a
-                  className="btn btn-api fadeInUp animate"
-                  onClick={() =>
-                    document.getElementById('cases').scrollIntoView()
-                  }
-                >
-                  Get updates
-                </a>
-              </div>
-              {/*
-              <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
-*/}
-            </div>
-            <div className="spread-images">
-              <img
-                src="/images/main.svg"
-                className="spread-main"
-                alt="exchanges"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="second">
-        <div className="container">
-          <div className="row case-hide">
-            <div className="content-box">
-              <h3 className="section-heading">How to use</h3>
-            </div>
-            <div className="col-mdd-12 fadeInLeft animate">
-              <div className="second-box">
-                <img
-                  src="/images/step1customer.svg"
-                  className="spread-main"
-                  alt="exchanges"
-                />
-                <div className="case-desc">
-                  <h4>Post your job offer</h4>
-                  <h6 className="second-text2">
-                    Use our history intraday market data for backtesting your
-                    models, and our real-time market data stream for live
-                    trading and proactive portfolio risk management.
-                  </h6>
-                </div>
-              </div>
-              <div className="second-box">
-                <img
-                  src="/images/step2customer.svg"
-                  alt="portfolio valuation"
-                />
-                <div className="case-desc">
-                  <h4>Let us match the task with freelancers</h4>
-                  <h6 className="second-text2">
-                    Get a precise valuation of portfolios containing multiple
-                    cryptocurrency assets, using a single API call.
-                  </h6>
-                </div>
-              </div>
-              <div className="second-box">
-                <img
-                  src="/images/step3customer.svg"
-                  alt="portfolio valuation"
-                />
-                <div className="case-desc">
-                  <h4>Choose one among the fittest</h4>
-                  <h6 className="second-text2">
-                    Get a precise valuation of portfolios containing multiple
-                    cryptocurrency assets, using a single API call.
-                  </h6>
-                </div>
-              </div>
-              <div className="second-box">
-                <img
-                  src="/images/step4customer.svg"
-                  alt="portfolio valuation"
-                />
-                <div className="case-desc">
-                  <h4>Get the work done</h4>
-                  <h6 className="second-text2">
-                    Get a precise valuation of portfolios containing multiple
-                    cryptocurrency assets, using a single API call.
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="benefits">
-        <div className="container">
-          <div className="row benifit-hide">
-            <div className="content-box">
-              <h3 className="section-heading">Benefits</h3>
-            </div>
-            <div className="col-mdd-12">
-              <div className="benefits-box fadeInLeft animate">
-                <img
-                  src="/images/ben1.svg"
-                  className="spread-main"
-                  alt="exchanges"
-                />
-                <div className="benifit-desc">
-                  <h4>Efficient use of client time</h4>
-                  <h6 className="benefits-text2">
-                    Clients receive up to 10 best matching freelancers for the
-                    tasks you have supplied based on the task description,
-                    price, and other settings.
-                  </h6>
-                </div>
-              </div>
-
-              <div className="benefits-box fadeInLeft animate">
-                <div className="benifit-desc">
-                  <h4>Streamlined matching for freelancers</h4>
-                  <h6 className="benefits-text2">
-                    We believe freelancers loose too much time hunting for work.
-                    We want to reduce wasted time via automated skill evaluation
-                    and matching with our Neural Network.
-                  </h6>
-                </div>
-                <img src="/images/ben2.svg" alt="portfolio valuation" />
-              </div>
-              <div className="benefits-box benefits-box-right fadeInLeft animate">
-                <div className="benifit-desc">
-                  <h4>Amazing pricing</h4>
-                  <h6 className="benefits-text2">
-                    We charge a flat 9% fee (payment processors may charge extra
-                    when paying through their service). No hidden extra fees.
-                    Our services are affordable so you can get on with the job
-                    and also come out on top.
-                  </h6>
-                </div>
-                <img src="/images/ben3.svg" alt="portfolio valuation" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="cta">
-        <div className="container">
-          <div className="row">
-            <div className="content-box wanna-try">
-              <h3 className="section-heading fadeInDown animate">Intrested?</h3>
-              <p>
-                Leave your name and email to get updates
-                <br />
-                on the development.
-              </p>
-              <p className="hidden-success">Thanks!</p>
-              <form
-                action="https://send.pageclip.co/0pHRl3IHAP0G7NyWOex5HGulUEV34j1a/contact-form"
-                className="pageclip-form"
-                method="post"
+            <div className="early-access-container">
+              <a
+                className="btn btn-api fadeInUp animate"
+                onClick={() =>
+                  document.getElementById('cases').scrollIntoView()
+                }
               >
-                {/* Replace these inputs with your own. Make sure they have a "name" attribute! */}
-                <div className="form-fields">
-                  <input
-                    type="text"
-                    className="form-control"
-                    name="name"
-                    placeholder="Jonhn Doe"
-                  />
-                  <input
-                    type="email"
-                    className="form-control"
-                    name="email"
-                    placeholder="john@acme.com"
-                  />
-                </div>
-                <button type="submit" className="btn btn-api fadeInUp animate">
-                  Get updates
-                </button>
-              </form>
+                Get updates
+              </a>
             </div>
           </div>
+          <div className="spread-images">
+            <img
+              src="/images/main.svg"
+              className="spread-main"
+              alt="exchanges"
+            />
+          </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <section className="section-info">
+      <div className="info-element">
+        <div className="info-element-picture"></div>
+        <div className="info-element-text">
+          <h4>Easily describe any tasks and set requirement</h4>
+          <p>
+            picture of a thing that complicated enough to making itself simple
+          </p>
+        </div>
+      </div>
+
+      <div className="info-element info-element-reversed">
+        <div className="info-element-picture"></div>
+        <div className="info-element-text">
+          <h4>
+            Select the right person with help of analytics and artificial
+            intellegence
+          </h4>
+          <p>
+            picture of variety: traits, skills, proofs, perks, roles, location,
+            live meet picture of variety Pt. 2
+          </p>
+        </div>
+      </div>
+
+      <div className="info-element info-element-reversed">
+        <div className="info-element-picture"></div>
+        <div className="info-element-text">
+          <h4>Keep a trustful relationship, be open to many more</h4>
+          <p>
+            vote 4 skills of workers (if we don't have any of those right now) /
+            vote for clear description in tasks Picture of longevity, a
+            transparent process, some sort of animation??? Inter-role section
+          </p>
+        </div>
+      </div>
+
+      <div className="info-element info-element-blue">
+        <div className="info-element-picture"></div>
+        <div className="info-element-text">
+          <h4>Hiring API for hire programmatically</h4>
+          <p>
+            The whole point of this is to show people how you can integrate the
+            hiring process in worker
+          </p>
+        </div>
+      </div>
+    </section>
+    <CTA role={'customer'} />
   </Layout>
 )
 

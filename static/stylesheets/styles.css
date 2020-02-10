@@ -3263,7 +3263,7 @@ section .content-box .section-heading {
 }
 
 .navbar-default .navbar-nav li a {
-  color: #3F3356;
+  color: #3f3356;
   font-size: 16px;
   font-weight: 600;
   line-height: 40px;
@@ -3529,7 +3529,7 @@ section#site-main {
   padding-bottom: 241px;
 }
 section#site-main.loyal-orange {
-  background: #FEEEE0;
+  background: #feeee0;
 }
 
 @media (max-width: 1200px) and (min-width: 768px) {
@@ -3562,14 +3562,14 @@ section#site-main .container h4 {
 }
 
 section#site-main .container .btn-api {
-  background-image: linear-gradient(-180deg, #5F64AC 0%, #5F64AC 100%);
+  background-image: linear-gradient(-180deg, #5f64ac 0%, #5f64ac 100%);
   border-radius: 100px;
   margin-top: 20px;
   font-family: GillSans;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 0;
-  box-shadow: #00000082 0px 2px 4px;  
+  box-shadow: #00000082 0px 2px 4px;
 }
 
 section#site-main .container .btn-api:hover {
@@ -3826,10 +3826,10 @@ section#cta {
   background: #464b87;
 }
 section.loyal-orange-bleached {
-  background: #FEF3E9;
+  background: #fef3e9;
 }
 section.loyal-orange {
-  background: #FEEEE0;
+  background: #feeee0;
 }
 section#cdn .container img {
   margin-top: 100px;

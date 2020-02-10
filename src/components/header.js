@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 
 const locationActive = at => {
   const windowGlobal = typeof document !== 'undefined' && document
-
   try {
     if (windowGlobal) {
       if (document.location.pathname == at) {
@@ -59,18 +58,12 @@ const Header = ({ siteTitle, headerClassName }) => (
         id="navbar-collapse"
         aria-expanded="false"
       >
-        <form className="navbar-form navbar-right subscribe-form hidden-sm">
-          {/*<a href="/pricing?apikey" className="btn btn-subscribe">Get a free API key</a>*/}
-        </form>
         <ul className="nav navbar-nav navbar-right">
           <li className={locationActive('/')}>
             <a href="/">For Clients</a>
           </li>
           <li className={locationActive('/freelancers/')}>
             <a href="/freelancers/">For Freelancers</a>
-          </li>
-          <li className={locationActive('/relayers/')}>
-            <a href="/relayers/">Relayers</a>
           </li>
           {/*
                 <li><a href="#pricing" id="pricing-hide">Pricing</a></li>

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "spread-landing",
+  "description": "Spread (spread0x.com) project - Landing page",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Stanislav <iamjacke@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
     "fsevents": "^2.1.2",
@@ -25,10 +25,8 @@
     "reactstrap": "^8.4.0",
     "set-value": "^3.0.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "keywords": [],
+  "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -38,9 +36,5 @@
   "devDependencies": {
     "gatsby-plugin-tslint": "^0.0.2",
     "prettier": "^1.19.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
