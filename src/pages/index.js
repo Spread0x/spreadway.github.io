@@ -62,7 +62,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="info-element info-element-reversed">
+      <div className="info-element info-element-reversed info-element-var-background-b">
         <div className="info-element-picture"></div>
         <div className="info-element-text">
           <h4>
@@ -76,7 +76,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="info-element info-element-reversed">
+      <div className="info-element info-element-reversed info-element-var-background-a">
         <div className="info-element-picture"></div>
         <div className="info-element-text">
           <h4>Keep a trustful relationship, be open to many more</h4>

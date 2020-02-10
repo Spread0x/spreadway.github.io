@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import jquery from 'jquery'
 import CTA from './cta';
@@ -19,6 +18,13 @@ const IndexPage = () => (
       <section id="site-main" class="loyal-orange">
         <div className="container">
           <div className="row">
+          <div className="col-md-6 spread-images">
+              <img
+                src="/images/main2.svg"
+                className="spread-main spread-main-promo-img2"
+                alt="exchanges"
+              />
+            </div>            
             <div className="col-md-6">
               <h2 className="fadeInLeft animate">
                 Match your experience with projects you can join right now
@@ -37,16 +43,7 @@ const IndexPage = () => (
               >
                 Get updates
               </a>
-              {/*
-              <a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>
-*/}
-            </div>
-            <div className="col-md-6 spread-images">
-              <img
-                src="/images/main2.svg"
-                className="spread-main spread-main-promo-img2"
-                alt="exchanges"
-              />
+              {/*<a className="btn btn-human fadeInUp animate" data-toggle="modal" data-target="#enterpriseModal" href="/enterpriseContact">Contact sales</a>*/}
             </div>
           </div>
         </div>
@@ -54,7 +51,7 @@ const IndexPage = () => (
 
 
 
-      <section className="section-info">
+      <section className="section-info loyal-orange">
       <div className="info-element">
         <div className="info-element-picture"></div>
         <div className="info-element-text">
@@ -79,7 +76,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="info-element info-element-reversed">
+      <div className="info-element info-element-reversed info-element-var-background-a">
         <div className="info-element-picture"></div>
         <div className="info-element-text">
           <h4>Keep a trustful relationship, be open to many more</h4>
@@ -91,7 +88,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="info-element info-element-blue">
+      <div className="info-element info-element-blue info-element-var-background-b">
         <div className="info-element-picture"></div>
         <div className="info-element-text">
           <h4>Hiring API for hire programmatically</h4>

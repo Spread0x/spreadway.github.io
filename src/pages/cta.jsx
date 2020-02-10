@@ -1,16 +1,26 @@
 import React from 'react'
+
+const CTAInfo = {
+  title: 'Intrested?',
+  info: 'Leave your name and email to get updates',
+  info2: 'on the development.',
+  subscribe: 'Subscribe'
+}
+
 const CTA = () => (
 
 <section id="cta">
-<div className="container">
   <div className="row">
     <div className="content-box wanna-try">
-      <h3 className="section-heading fadeInDown animate">Intrested?</h3>
+      <div class="cta-info">
+        <h3 className="section-heading fadeInDown animate">{CTAInfo.title}</h3>
+      <div><b><h5>IMAGE</h5></b></div>
       <p>
-        Leave your name and email to get updates
+        {CTAInfo.info}
         <br />
-        on the development.
+        {CTAInfo.info2}
       </p>
+      </div>
       <p className="hidden-success">Thanks!</p>
       <form
         action="https://send.pageclip.co/0pHRl3IHAP0G7NyWOex5HGulUEV34j1a/contact-form"
@@ -31,13 +41,10 @@ const CTA = () => (
             placeholder="john@acme.com"
           />
         </div>
-        <button type="submit" className="btn btn-api fadeInUp animate">
-          Get updates
-        </button>
+        <button type="submit" className="btn btn-api fadeInUp animate">{CTAInfo.subscribe}</button>
       </form>
     </div>
   </div>
-</div>
 </section>)
 
 export default CTA;

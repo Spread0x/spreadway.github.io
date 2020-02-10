@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = ({ footerClassName }) => (
   <footer className={'footer ' + footerClassName}>
-    <div className="top-footer">
+     {/*<div className="top-footer">
       <div className="container">
         <div className="row">
           <div className="col-sm-2">
@@ -20,18 +20,15 @@ const Footer = ({ footerClassName }) => (
               id="product"
               aria-expanded="false"
             >
-              {/*<li className="list-group-item"><a href="/#data">Features</a></li>
-                  <li className="list-group-item"><a href="/#cases">Use cases</a></li>*/}
               <li className="list-group-item">
                 <a href="/#pricing">Pricing</a>
               </li>
               <li className="list-group-item">
                 <a href="https://medium.com/spread-dao">Blog</a>
               </li>
-              {/*<li className="list-group-item"><a href="https://www.cryptotick.com/" target="_blank">Flat files</a></li>*/}
             </ul>
           </div>
-          {/*<div className="col-sm-2">
+          <div className="col-sm-2">
                 <h6 className="footer-title space-bottom-2x hidden-xs">Help</h6>
                 <h6 className="footer-title visible-xs collapsed" data-toggle="collapse" data-target="#help" aria-expanded="false">Help</h6>
                 <ul className="list-group collapse" id="help" aria-expanded="false">
@@ -55,10 +52,10 @@ const Footer = ({ footerClassName }) => (
                   <li className="list-group-item"><a href="/#terms">Terms of service</a></li>
                   <li className="list-group-item"><a href="/#policy">Privacy Policy</a></li>
                 </ul>
-              </div>*/}
+              </div>
         </div>
       </div>
-    </div>
+    </div> */}
     <div className="bottom-footer">
       <div className="container">
         <div className="row">

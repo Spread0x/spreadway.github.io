@@ -3405,12 +3405,16 @@ section .content-box .section-heading {
 }
 
 footer {
-  background: #fff;
+  background: #464b87;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  border-top: 1px solid #e0ebfc;
-  padding-top: 80px;
+  color: white;
+  font-weight: 900;
+  margin-top: 0px;
+}
+footer .bottom-footer {
+  box-shadow: 1px 1px 8px #3c4179;
 }
 
 @media (min-width: 1700px) {
@@ -3423,7 +3427,6 @@ footer {
   footer {
     padding-top: 40px;
     text-align: center;
-    display: none;
   }
 }
 
@@ -3487,8 +3490,9 @@ footer .top-footer .list-group-item a:hover {
 }
 
 footer .bottom-footer .container {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -1px;
 }
 
 footer .bottom-footer p {
@@ -3498,12 +3502,6 @@ footer .bottom-footer p {
 
 footer .bottom-footer p .text-left {
   float: left;
-}
-
-@media (max-width: 768px) {
-  footer .bottom-footer p .text-left {
-    display: none;
-  }
 }
 
 footer .bottom-footer p .text-right {
@@ -3527,6 +3525,7 @@ section#site-main {
   background-size: cover;
   padding-top: 207px;
   padding-bottom: 241px;
+  min-height: 730px;
 }
 section#site-main.loyal-orange {
   background: #feeee0;
@@ -3822,9 +3821,6 @@ section#real_time .container img {
   }
 }
 
-section#cta {
-  background: #464b87;
-}
 section.loyal-orange-bleached {
   background: #fef3e9;
 }
@@ -4505,10 +4501,6 @@ footer .separator-top-1x span.text-left {
   float: none;
 }
 
-footer .bottom-footer {
-  margin-top: -23px;
-}
-
 .affix .navbar-collapse li:last-child a {
   border: none;
 }
@@ -4529,4 +4521,142 @@ section#site-main.site-main-blue {
     #66b5c1 65%,
     #5aa5b1 75%
   );
+}
+
+/*****
+ *  New competitive layout (v2)
+ */
+.info-element-text h4 {
+  font-size: 44px;
+  letter-spacing: 0;
+}
+
+section.section-info {
+}
+
+section.section-info .info-element {
+  max-height: 620px;
+  min-height: 600px;
+  background: rgba(221, 217, 247, 0.54);
+  padding: 3% 6%;
+  box-shadow: 1px 1px 5px #191d4433;
+}
+
+section.section-info .info-element-picture {
+}
+section.section-info .info-element-text {
+}
+
+section.section-info .info-element-text h4 {
+  font-family: PTSans-Bold;
+  color: #15269c;
+  letter-spacing: 1px;
+  line-height: 43px;
+}
+
+section.section-info .info-element-text p {
+  font-family: OpenSans;
+  font-size: 16px;
+  color: #626063;
+  letter-spacing: 1px;
+}
+
+section.section-info .info-element-reversed {
+}
+
+section.section-info .info-element-blue {
+  background: #242852;
+}
+
+section.section-info .info-element-blue .info-element-text h4 {
+  font-family: PTSans-Regular;
+  color: #dce9f6;
+}
+
+section.section-info .info-element-blue .info-element-text p {
+  font-family: PTSans-Regular;
+  color: #dce9f6;
+}
+
+section.section-info .info-element.info-element-var-background-b {
+  background: #f3f2fc;
+}
+section.section-info .info-element.info-element-var-background-a {
+  background: #ebe9fa;
+}
+
+/* LOYAL ORANGE */
+section.section-info.loyal-orange .info-element {
+  background: #fef7f1;
+}
+section.section-info.loyal-orange .info-element.info-element-var-background-a {
+  background: #fef3e9;
+}
+section.section-info.loyal-orange .info-element.info-element-var-background-b {
+  background: #e2d0be;
+}
+section.section-info.loyal-orange
+  .info-element.info-element-var-background-b
+  h4 {
+  font-family: PTSans-Bold;
+  font-size: 44px;
+  color: #2f1904;
+  letter-spacing: 0;
+}
+section.section-info.loyal-orange
+  .info-element.info-element-var-background-b
+  p {
+  font-family: PTSans-Bold;
+  font-size: 16px;
+  color: rgba(21, 38, 156, 0.91);
+  letter-spacing: 1px;
+}
+
+/*** 
+ * CALL TO ACTION // Competitive layout (v2)
+ ***/
+section#cta {
+  background: #464b87;
+  padding-bottom: 45px;
+  display: flex;
+  font-family: PTSans-Regular;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+section#cta .content-box .section-heading {
+  text-align: center;
+  font-family: PTSans-Regular;
+  color: #dbe9f6;
+  font-weight: 600;
+}
+
+section#cta .content-box p {
+  text-align: center;
+  line-height: 20px;
+}
+
+section#cta .content-box.wanna-try {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+form.pageclip-form {
+  margin: 0;
+  margin-left: 15%;
+  margin-top: 9px;
+}
+
+.pageclip-form .form-fields {
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.pageclip-form button.btn.btn-api.fadeInUp.animate {
+  width: 100%;
+  color: black;
+  margin-top: 10px;
 }
