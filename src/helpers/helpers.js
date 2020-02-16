@@ -3,6 +3,10 @@ export const getLocationClass = () => {
   if (loc == '/') {
     return 'root'
   } else {
-    return loc.replace('/', '')
+    return replaceAll(loc, '/', '')
   }
 }
+
+function replaceAll(originalString, find, replace) {
+  return originalString.replace(new RegExp(find, 'g'), replace);
+};

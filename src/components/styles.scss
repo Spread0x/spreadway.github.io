@@ -1,14 +1,4 @@
-@charset "UTF-8";
-
-@import url(
-  https://fonts.googleapis.com/css?family=Roboto+Mono:400,
-  100,
-  200,
-  300,
-  500,
-  600,
-  700
-);
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
 
 html {
   font-family: sans-serif;
@@ -299,18 +289,6 @@ th {
   .table th {
     background-color: #fff !important;
   }
-}
-
-@font-face {
-  font-family: glyphicons halflings;
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot);
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix)
-      format('embedded-opentype'),
-    url(../fonts/bootstrap/glyphicons-halflings-regular.woff2) format('woff2'),
-    url(../fonts/bootstrap/glyphicons-halflings-regular.woff) format('woff'),
-    url(../fonts/bootstrap/glyphicons-halflings-regular.ttf) format('truetype'),
-    url(../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
-      format('svg');
 }
 
 * {
@@ -3414,7 +3392,7 @@ footer {
   margin-top: 0px;
 }
 footer .bottom-footer {
-  box-shadow: 1px 1px 8px #3c4179;
+  // box-shadow: 1px 1px 8px #3c4179; 
 }
 
 @media (min-width: 1700px) {
@@ -4499,6 +4477,13 @@ footer .separator-top-1x {
 
 footer .separator-top-1x span.text-left {
   float: none;
+  font-size: 10px;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #0000004f;
+}
+
+footer.footer.freelancers {
+  background: #403B36;
 }
 
 .affix .navbar-collapse li:last-child a {
@@ -4620,9 +4605,17 @@ section#cta {
   padding-bottom: 45px;
   display: flex;
   font-family: PTSans-Regular;
-  flex-direction: column;
-  padding-left: 15%;
+  justify-content: space-around;
   padding-right: 15%;
+  padding-left: 15%;
+}
+
+section#cta.employee {
+  background: #E6D4C1;
+  color: #403B36;
+}
+section#cta.employee .content-box .section-heading {
+  color: #403B36;
 }
 
 section#cta .content-box .section-heading {
@@ -4658,5 +4651,10 @@ form.pageclip-form {
 .pageclip-form button.btn.btn-api.fadeInUp.animate {
   width: 100%;
   color: black;
+  margin-top: 10px;
+}
+section#cta.employee .pageclip-form button.btn {
+  width: 100%;
+  color: #403B36;
   margin-top: 10px;
 }

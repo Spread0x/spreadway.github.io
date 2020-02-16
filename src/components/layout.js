@@ -6,6 +6,7 @@ import Header from './header';
 import Footer from './footer';
 import { getLocationClass } from '../helpers/helpers';
 import './layout.css';
+import './styles.scss';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -46,12 +47,6 @@ const Layout = ({ children }) => (
             rel="icon"
             href="/images/favicon-32x32.png"
             type="image/x-icon"
-          />
-          <link rel="stylesheet" href="/stylesheets/boostrap.css" />
-          <link
-            href="/stylesheets/styles.css"
-            rel="stylesheet"
-            media="screen"
           />
           <link
             rel="stylesheet"

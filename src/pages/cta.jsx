@@ -7,9 +7,9 @@ const CTAInfo = {
   subscribe: 'Subscribe'
 }
 
-const CTA = () => (
+const CTA = ({role}) => (
 
-<section id="cta">
+<section id="cta" className={role}>
   <div className="row">
     <div className="content-box wanna-try">
       <div class="cta-info">
