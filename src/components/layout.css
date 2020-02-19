@@ -722,7 +722,9 @@ section#site-main .container .spread-images .spread-main {
   top: -102px;
   z-index: 1;
   max-width: 701px;
-  right: 4%;
+  width: 600px;
+  right: 0;
+  top: -432px;
 }
 
 @media (max-width: 1300px) {

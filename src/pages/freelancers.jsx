@@ -56,7 +56,9 @@ const IndexPage = () => (
       </div>
 
       <div className="info-element info-element-cross">
-        <div className="info-element-up">
+        <div className="container">
+        <div className="row">
+        <div className="info-element-up col">
           <div className="info-element-picture"></div>
           <div className="info-element-text">
             <h4>AI will analyze your skills, no CV required</h4>
@@ -66,7 +68,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="info-element-left">
+        <div className="info-element-left col">
           <div className="info-element-picture"></div>
           <div className="info-element-text">
             <h4>Present yourself to demand of customers</h4>
@@ -74,7 +76,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="info-element-right">
+        <div className="info-element-right col">
           <div className="info-element-picture"></div>
           <div className="info-element-text">
             <h4>Broadcast your availability. Wrote down your activities</h4>
@@ -84,6 +86,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
+        </div></div>
       </div>
 
 

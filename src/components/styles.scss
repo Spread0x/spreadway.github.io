@@ -3562,6 +3562,7 @@ section#site-main .container .btn-api:hover {
 
 section#site-main .container .spread-images {
   position: relative;
+  width: 100%;
 }
 
 @-webkit-keyframes fadeIn {
@@ -4657,4 +4658,84 @@ section#cta.employee .pageclip-form button.btn {
   width: 100%;
   color: #403B36;
   margin-top: 10px;
+}
+
+
+section#cta.employee .pageclip-form input.form-control {
+  background: none;
+  border: solid 2px black;
+}
+section#cta.employee .pageclip-form input.form-control::placeholder {
+  color: black;
+  font-weight: 900;
+  opacity: 0.6;
+  
+}
+
+button.btn.btn-api.fadeInUp.animate {}
+
+section#cta.employee .pageclip-form button.btn {
+  border: black 2px solid;
+  background: #ffce94;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 9px;
+}
+
+
+
+.pageclip-form input.form-control {
+  background: transparent;
+  border: solid 2px #393d75;
+}
+.pageclip-form input.form-control::placeholder {
+  color: #080c38;
+  font-weight: 900;
+  opacity: 0.6;
+  
+}
+
+button.btn.btn-api.fadeInUp.animate {}
+
+section#cta .pageclip-form button.btn {
+  box-shadow: 2px 2px 1px #20223845;
+  background: #676ec7;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 9px;
+}
+
+
+
+button.btn.btn-api.fadeInUp.animate {}
+
+section#cta .pageclip-form button.btn {
+    transition: all .4s;
+}
+section#cta .pageclip-form button.btn:hover {
+    background: #7322224a;
+}
+
+section#cta .pageclip-form button.btn:active {
+    background: #0000004a;
+    box-shadow: 1px 1px 1px #0000006e inset;
+}
+
+
+.pageclip-form input.form-control:focus {
+  background: #3e4488;
+  transition: 1s all;
+  color: white;
+}
+
+.pageclip-form input.form-control {
+  color: white;
+  font-weight: 900;   
+}
+
+section#cta.employee .pageclip-form input.form-control {
+  color: #403b37;
+  font-weight: 900;
 }
