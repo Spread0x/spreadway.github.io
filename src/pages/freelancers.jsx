@@ -44,6 +44,20 @@ const IndexPage = () => (
       </div>
     </section>
 
+
+    <section className="section-features loyal-orange">
+      <div className="info-element">
+        <div className="info-element-picture">
+          <img src="/images/main2.svg" className="spread-main spread-main-promo-img2" alt="exchanges" />
+        </div>
+        <div className="info-element-text">
+          <h4>Features</h4>
+        </div>
+      </div>
+    </section>
+
+
+
     <section className="section-info loyal-orange">
       <div className="info-element">
         <div className="info-element-picture"></div>
@@ -57,6 +71,7 @@ const IndexPage = () => (
 
       <div className="info-element info-element-cross">
         <div className="container">
+
         <div className="row">
         <div className="info-element-up col">
           <div className="info-element-picture"></div>
@@ -71,11 +86,20 @@ const IndexPage = () => (
         <div className="info-element-left col">
           <div className="info-element-picture"></div>
           <div className="info-element-text">
+            <h4>IMG</h4>
+          </div>
+        </div>
+        
+        <div className="info-element-left col">
+          <div className="info-element-picture"></div>
+          <div className="info-element-text">
             <h4>Present yourself to demand of customers</h4>
             <p>Choose tech stack what you like with highest profit</p>
           </div>
         </div>
-
+        </div>
+        
+        <div className="row">
         <div className="info-element-right col">
           <div className="info-element-picture"></div>
           <div className="info-element-text">
@@ -86,7 +110,8 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        </div></div>
+        </div>
+        </div>
       </div>
 
 

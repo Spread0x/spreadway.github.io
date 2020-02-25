@@ -3505,9 +3505,18 @@ section#site-main {
   padding-bottom: 241px;
   min-height: 730px;
 }
+
+/* Loyal orange */
 section#site-main.loyal-orange {
   background: #feeee0;
 }
+section#site-main.loyal-orange .container .spread-images .spread-main {
+  top: 0;
+}
+section#cta.employee .pageclip-form button.btn:hover {
+  background: #d0a26d;
+}
+
 
 @media (max-width: 1200px) and (min-width: 768px) {
   section#site-main {
@@ -4714,8 +4723,9 @@ button.btn.btn-api.fadeInUp.animate {}
 section#cta .pageclip-form button.btn {
     transition: all .4s;
 }
+
 section#cta .pageclip-form button.btn:hover {
-    background: #7322224a;
+  background: #313779;
 }
 
 section#cta .pageclip-form button.btn:active {
