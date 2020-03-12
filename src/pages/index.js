@@ -44,7 +44,7 @@ const IndexPage = () => (
             <img
               src="/images/main.svg"
               className="spread-main"
-              alt="exchanges"
+              alt="Quickly find qualified freelancers for your project"
             />
           </div>
         </div>
@@ -55,9 +55,9 @@ const IndexPage = () => (
       <div className="info-element">
         <div className="info-element-picture">
           <img
-            src="/images/main2.svg"
+            src="/promo/features.svg"
             className="spread-main spread-main-promo-img2"
-            alt="exchanges"
+            alt="Features"
           />
         </div>
         <div className="info-element-text">
@@ -68,7 +68,13 @@ const IndexPage = () => (
 
     <section className="section-info">
       <div className="info-element">
-        <div className="info-element-picture"></div>
+        <div className="info-element-picture">
+          <img
+              src="/promo/easily-describe.svg"
+              className="spread-main spread-main-promo-img2"
+              alt="Easily describe any tasks and set requirement"
+            />
+        </div>
         <div className="info-element-text">
           <h4>Easily describe any tasks and set requirement</h4>
           <p>
@@ -78,7 +84,14 @@ const IndexPage = () => (
       </div>
 
       <div className="info-element info-element-reversed info-element-var-background-b">
-        <div className="info-element-picture"></div>
+        <div className="info-element-picture">
+          <img
+            src="/promo/select-right.svg"
+            className="spread-main spread-main-promo-img2"
+            alt="Select the right person with help of analytics and artificial
+            intellegence"
+          />
+        </div>
         <div className="info-element-text">
           <h4>
             Select the right person with help of analytics and artificial
@@ -92,7 +105,13 @@ const IndexPage = () => (
       </div>
 
       <div className="info-element info-element-reversed info-element-var-background-a">
-        <div className="info-element-picture"></div>
+        <div className="info-element-picture">
+          <img
+              src="/promo/keep-trustful.svg"
+              className="spread-main spread-main-promo-img2"
+              alt="Keep a trustful relationship, be open to many more"
+            />
+        </div>
         <div className="info-element-text">
           <h4>Keep a trustful relationship, be open to many more</h4>
           <p>
@@ -104,7 +123,13 @@ const IndexPage = () => (
       </div>
 
       <div className="info-element info-element-blue">
-        <div className="info-element-picture"></div>
+        <div className="info-element-picture">
+          <img
+              src="/promo/hiring-api.svg"
+              className="spread-main spread-main-promo-img2"
+              alt="Keep a trustful relationship, be open to many more"
+            />          
+        </div>
         <div className="info-element-text">
           <h4>Hiring API for hire programmatically</h4>
           <p>

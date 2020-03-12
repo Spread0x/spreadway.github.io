@@ -1,5 +1,11 @@
 export const getLocationClass = () => {
-  let loc = window.location.pathname
+  var loc;
+  if (typeof window !== "undefined") {
+    loc = window.location.pathname
+  } else {
+    loc = '/'
+  }
+
   if (loc == '/') {
     return 'root'
   } else {
