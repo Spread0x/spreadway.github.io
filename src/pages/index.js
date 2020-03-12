@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import jquery from 'jquery'
-import CTA from './cta';
+import CTA from './cta'
 
 const windowGlobal = typeof window !== 'undefined' && window
 
@@ -36,7 +36,7 @@ const IndexPage = () => (
                   document.getElementById('cases').scrollIntoView()
                 }
               >
-                Get updates
+                Get updatess
               </a>
             </div>
           </div>
@@ -54,14 +54,17 @@ const IndexPage = () => (
     <section className="section-features">
       <div className="info-element">
         <div className="info-element-picture">
-          <img src="/images/main2.svg" className="spread-main spread-main-promo-img2" alt="exchanges" />
+          <img
+            src="/images/main2.svg"
+            className="spread-main spread-main-promo-img2"
+            alt="exchanges"
+          />
         </div>
         <div className="info-element-text">
           <h4>Features</h4>
         </div>
       </div>
     </section>
-
 
     <section className="section-info">
       <div className="info-element">
