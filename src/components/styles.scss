@@ -3392,7 +3392,7 @@ footer {
   margin-top: 0px;
 }
 footer .bottom-footer {
-  // box-shadow: 1px 1px 8px #3c4179; 
+  // box-shadow: 1px 1px 8px #3c4179;
 }
 
 @media (min-width: 1700px) {
@@ -3516,7 +3516,6 @@ section#site-main.loyal-orange .container .spread-images .spread-main {
 section#cta.employee .pageclip-form button.btn:hover {
   background: #d0a26d;
 }
-
 
 @media (max-width: 1200px) and (min-width: 768px) {
   section#site-main {
@@ -4493,7 +4492,7 @@ footer .separator-top-1x span.text-left {
 }
 
 footer.footer.freelancers {
-  background: #403B36;
+  background: #403b36;
 }
 
 .affix .navbar-collapse li:last-child a {
@@ -4621,11 +4620,11 @@ section#cta {
 }
 
 section#cta.employee {
-  background: #E6D4C1;
-  color: #403B36;
+  background: #e6d4c1;
+  color: #403b36;
 }
 section#cta.employee .content-box .section-heading {
-  color: #403B36;
+  color: #403b36;
 }
 
 section#cta .content-box .section-heading {
@@ -4665,10 +4664,9 @@ form.pageclip-form {
 }
 section#cta.employee .pageclip-form button.btn {
   width: 100%;
-  color: #403B36;
+  color: #403b36;
   margin-top: 10px;
 }
-
 
 section#cta.employee .pageclip-form input.form-control {
   background: none;
@@ -4678,10 +4676,10 @@ section#cta.employee .pageclip-form input.form-control::placeholder {
   color: black;
   font-weight: 900;
   opacity: 0.6;
-  
 }
 
-button.btn.btn-api.fadeInUp.animate {}
+button.btn.btn-api.fadeInUp.animate {
+}
 
 section#cta.employee .pageclip-form button.btn {
   border: black 2px solid;
@@ -4692,8 +4690,6 @@ section#cta.employee .pageclip-form button.btn {
   line-height: 9px;
 }
 
-
-
 .pageclip-form input.form-control {
   background: transparent;
   border: solid 2px #393d75;
@@ -4702,10 +4698,10 @@ section#cta.employee .pageclip-form button.btn {
   color: #080c38;
   font-weight: 900;
   opacity: 0.6;
-  
 }
 
-button.btn.btn-api.fadeInUp.animate {}
+button.btn.btn-api.fadeInUp.animate {
+}
 
 section#cta .pageclip-form button.btn {
   box-shadow: 2px 2px 1px #20223845;
@@ -4716,12 +4712,11 @@ section#cta .pageclip-form button.btn {
   line-height: 9px;
 }
 
-
-
-button.btn.btn-api.fadeInUp.animate {}
+button.btn.btn-api.fadeInUp.animate {
+}
 
 section#cta .pageclip-form button.btn {
-    transition: all .4s;
+  transition: all 0.4s;
 }
 
 section#cta .pageclip-form button.btn:hover {
@@ -4729,10 +4724,9 @@ section#cta .pageclip-form button.btn:hover {
 }
 
 section#cta .pageclip-form button.btn:active {
-    background: #0000004a;
-    box-shadow: 1px 1px 1px #0000006e inset;
+  background: #0000004a;
+  box-shadow: 1px 1px 1px #0000006e inset;
 }
-
 
 .pageclip-form input.form-control:focus {
   background: #3e4488;
@@ -4742,7 +4736,7 @@ section#cta .pageclip-form button.btn:active {
 
 .pageclip-form input.form-control {
   color: white;
-  font-weight: 900;   
+  font-weight: 900;
 }
 
 section#cta.employee .pageclip-form input.form-control {
