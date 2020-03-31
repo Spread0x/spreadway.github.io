@@ -4526,21 +4526,77 @@ section#site-main.site-main-blue {
 }
 
 section.section-info {
+	.info-element-picture {
+
+	}
 }
 
 section.section-info .info-element {
+  display: flex;
+  justify-content: space-around;
   max-height: 620px;
-  min-height: 600px;
+  min-height: 300px;
   background: rgba(221, 217, 247, 0.54);
   padding: 3% 6%;
   box-shadow: 1px 1px 2px #191d4478;
+	        .info-element-picture {}
+		.info-element-text {}
+
 }
 
-section.section-info .info-element-picture {
-}
-section.section-info .info-element-text {
+.info-element.info-element-blue .info-element-picture {
+  width: 30%;
+  height: 40%;
 }
 
+section.section-info .info-element .info-element-picture {
+  max-width: 457px;
+  display: block;
+  margin-right: 5%;
+}
+section.section-info .info-element .info-element-text {
+  margin-left: 1%;
+  width: 65%;
+  margin-top: 10%;
+}
+.info-element-blue .info-element-text {
+  margin-top: 1%;
+}
+
+section#cta h5, section#cta p {
+  color: #e8f3ff;
+  font-weight: 600;
+}
+
+.info-element-blue .info-element-picture {
+    width: 30%;
+    max-width: 750px;
+}
+section.section-features .info-element-text h4 {
+  font-family: PTSans-Bold;
+  color: #15269c;
+  letter-spacing: 1px;
+  line-height: 43px;
+}
+section.section-features {
+  display: flex;
+  min-height: 331px;
+  justify-content: space-around;
+
+	.info-element {
+
+	.info-element-picture {
+		width: 30%;
+    		max-width: 750px;
+	}
+
+	.info-element-text {
+	
+	}
+}
+
+
+}
 section.section-info .info-element-text h4 {
   font-family: PTSans-Bold;
   color: #15269c;
@@ -4630,7 +4686,7 @@ section#cta.employee .content-box .section-heading {
 section#cta .content-box .section-heading {
   text-align: center;
   font-family: PTSans-Regular;
-  color: #dbe9f6;
+  color: white;
   font-weight: 600;
 }
 
@@ -4705,7 +4761,8 @@ button.btn.btn-api.fadeInUp.animate {
 
 section#cta .pageclip-form button.btn {
   box-shadow: 2px 2px 1px #20223845;
-  background: #676ec7;
+  background: #3c48debd;
+  color: white;
   opacity: 1;
   font-weight: 900;
   font-size: 14px;

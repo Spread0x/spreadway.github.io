@@ -53,15 +53,15 @@ const IndexPage = () => (
 
     <section className="section-features">
       <div className="info-element">
+        <div className="info-element-text">
+          <h4>Features</h4>
+        </div>        
         <div className="info-element-picture">
           <img
             src="/promo/features.svg"
             className="spread-main spread-main-promo-img2"
             alt="Features"
           />
-        </div>
-        <div className="info-element-text">
-          <h4>Features</h4>
         </div>
       </div>
     </section>
