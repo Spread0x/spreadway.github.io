@@ -67,6 +67,10 @@ const ShortLayout = ({}) => {
           rel="stylesheet"
           type="text/css"
         />
+        <script
+          type="text/javascript"
+          src="/js/jquery2.js"
+        />        
         <script>{` 
 function isFunction(functionToCheck) {
   return functionToCheck && {}.toString.call(functionToCheck) === '[object Function]';
@@ -87,10 +91,6 @@ function isFunction(functionToCheck) {
   }
   }
 `}</script>
-        <script
-          type="text/javascript"
-          src="/js/jquery.js"
-        />
       </Helmet>
       <>
         <canvas id="bg-canvas"></canvas>
