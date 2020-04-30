@@ -78,6 +78,8 @@ function isFunction(functionToCheck) {
  
    var renderGph = () => { 
     if (isFunction($("#bg-canvas").bezierCanvas)) {
+      $().ready(function(){
+
 	 	$("#bg-canvas").bezierCanvas({
 	 		maxStyles: 25,
 	 		maxLines: 500,
@@ -87,7 +89,8 @@ function isFunction(functionToCheck) {
 	 		delayVariation: 0.5,
 	 		globalAlpha: 0.5,
 	 		globalSpeed: 500,
-	 	});
+     });
+    });
   }
   }
 `}</script>
