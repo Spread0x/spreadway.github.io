@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: 'Spread | AI powered freelance platform',
   },
-  pathPrefix: "/spreadway.github.io",
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-tslint',
