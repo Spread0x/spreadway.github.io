@@ -1,16 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 import Header from './header';
 import Footer from './footer';
 import { getLocationClass } from '../helpers/helpers';
 import './layout.css';
 import './styles.scss';
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
       query MyQuery {
         sitePage {
           id
@@ -21,8 +20,9 @@ const Layout = ({ children }) => (
           }
         }
       }
-    `}
-    render={data => (
+    `);
+
+    return (
       <>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -60,9 +60,8 @@ const Layout = ({ children }) => (
         <div className="page-wrapper">{children}</div>
         <Footer footerClassName={getLocationClass()} />
       </>
-    )}
-  />
-)
+    )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

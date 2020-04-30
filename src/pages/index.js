@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../components/short_index'
 import jquery from 'jquery'
 import CTA from './cta'
 

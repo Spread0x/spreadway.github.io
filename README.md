@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+cxzcxzcz
+x
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+>>>>>>> 2a4fab9398f79f01b7fd02fff5016dfa7f4f1dee
 <h1 align="center">
   Gatsby's default starter
 </h1>
