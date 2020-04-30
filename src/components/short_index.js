@@ -89,11 +89,11 @@ function isFunction(functionToCheck) {
 `}</script>
         <script
           type="text/javascript"
-          src="/static/js/jquery.js"
+          src="/js/jquery.js"
         />
         <script
           type="text/javascript"
-          src="/static/js/bezierCanvas.js"
+          src="/js/bezierCanvas.js"
         />
       </Helmet>
       <>
