@@ -91,10 +91,6 @@ function isFunction(functionToCheck) {
           type="text/javascript"
           src="/js/jquery.js"
         />
-        <script
-          type="text/javascript"
-          src="/js/bezierCanvas.js"
-        />
       </Helmet>
       <>
         <canvas id="bg-canvas"></canvas>
