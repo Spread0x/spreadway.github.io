@@ -92,6 +92,7 @@ function isFunction(functionToCheck) {
     }
     });
   }
+  setTimeout(renderGph, 1000);
 `}</script>
       </Helmet>
       <>
