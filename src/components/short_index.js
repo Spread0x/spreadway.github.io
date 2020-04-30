@@ -89,8 +89,8 @@ function isFunction(functionToCheck) {
 	 		globalAlpha: 0.5,
 	 		globalSpeed: 500,
      });
+    }
     });
-  }
   }
 `}</script>
       </Helmet>
